@@ -261,3 +261,10 @@ span.infobox_rate {
     width: auto !important;
     min-width: 200px;
 }
+.user-message  .m-widget3__info{
+    padding-right: 0 !important;
+}
+.time-clock{
+    display: inline-block;
+    margin-left: 5px;
+}
