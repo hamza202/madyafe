@@ -61,7 +61,7 @@
                                 <img alt="" src="assets/images/inline-logo-wight.png"/>
                             </a>
                         </div>
-                        <div class="m-stack__item m-stack__item--middle m-brand__tools">
+                        <div class="m-stack__item m-stack__item--middle m-brand__tools justify-content">
 
                             <!-- BEGIN: Left Aside Minimize Toggle -->
                             <a href="javascript:;" id="m_aside_left_minimize_toggle"
@@ -145,7 +145,7 @@
                                         <span>رسائل المستخدم</span>
                                     </span>
                                 </a>
-                                <a href="#"
+                                <a href="reservations.php"
                                    class="btn btn-primary m-btn m-btn--custom m-btn--icon d-block text-center mt-3">
                                     <span class="m-auto">
                                         <i class="la la-calendar-plus-o"></i>

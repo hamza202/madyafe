@@ -5,7 +5,7 @@
 <!-- begin::Head -->
 <head>
     <meta charset="utf-8"/>
-    <title>مضيافي | المستخدمين</title>
+    <title>مضيافي | الحجوزات</title>
     <meta name="description" content="Latest updates and statistic charts">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
 
@@ -111,7 +111,7 @@
             <div class="m-subheader ">
                 <div class="d-flex align-items-center">
                     <div class="mr-auto">
-                        <h3 class="m-subheader__title ">المستخدمين</h3>
+                        <h3 class="m-subheader__title ">الحجوزات</h3>
                     </div>
                 </div>
             </div>
@@ -123,7 +123,7 @@
                         <div class="m-portlet__head-caption">
                             <div class="m-portlet__head-title">
                                 <h3 class="m-portlet__head-text">
-                                    المستخدمين المسجلين في التطبيق
+                                    حجوزات المستخدميين
                                 </h3>
                             </div>
                         </div>
@@ -135,39 +135,27 @@
                             <thead>
                             <tr>
                                 <th>ID</th>
-                                <th>الأسم</th>
+                                <th>اسم المستخدم</th>
+                                <th>اسم مزود الخدمة</th>
+                                <th>اسم العقار الرئيسي</th>
                                 <th>الحالة</th>
-                                <th>عمليات</th>
-                                <th>بروفايل</th>
+                                <th>تعديل التاريخ</th>
+                                <th>تفاصيل</th>
                             </tr>
                             </thead>
                             <tbody>
                             <tr>
                                 <td>1</td>
                                 <td>حمزة ابو عيطة</td>
+                                <td>نور زيادة</td>
+                                <td>اسم العقار</td>
                                 <td><span class="m-badge  m-badge--success m-badge--wide">مفعل</span></td>
                                 <td>
-                                     <span class="dropdown user-option">
-                                        <a href="#"
-                                           class="btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill"
-                                           data-toggle="dropdown"
-                                           aria-expanded="true"><i class="la la-ellipsis-h"></i>
-                                        </a>
-                                        <div class="dropdown-menu dropdown-menu-left user-option">
-                                            <a class="dropdown-item" href="#m_modal_5" data-toggle="modal"
-                                               data-target="#m_modal_5"><i
-                                                        class="la la-check"></i> تفعيل  </a>
-                                              <a class="dropdown-item" href="#">
-                                                   <i class="la la-comment-o"></i> رسائل المستخدم</a>
-                                            <a class="dropdown-item" href="reservations.php">
-                                                   <i class="la la-calendar-check-o"></i> الحجوزات</a>
-                                            <a class="dropdown-item" href="#">
-                                                   <i class="la la-calendar-plus-o"></i> طلب الحجوزات</a>
-                                               <a class="dropdown-item" href="#m_modal_3" data-toggle="modal"
-                                                  data-target="#m_modal_3">
-                                                   <i class="la la-trash"></i> حذف</a>
-                                        </div>
-                                    </span>
+                                    <a href="#"
+                                       class="btn btn-outline-brand m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill m-btn--air"
+                                       data-toggle="modal" data-target="#m_daterangepicker_modal">
+                                        <i class="fas fa-pen-fancy"></i>
+                                    </a>
                                 </td>
                                 <td>
                                     <a href="profile.php"
@@ -177,31 +165,17 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>2</td>
+                                <td>1</td>
                                 <td>حمزة ابو عيطة</td>
-                                <td><span class="m-badge  m-badge--danger m-badge--wide">معطل</span></td>
+                                <td>نور زيادة</td>
+                                <td>اسم العقار</td>
+                                <td><span class="m-badge  m-badge--danger m-badge--wide">مغلق</span></td>
                                 <td>
-                                    <span class="dropdown">
-                                        <a href="#"
-                                           class="btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill"
-                                           data-toggle="dropdown"
-                                           aria-expanded="true"><i class="la la-ellipsis-h"></i>
-                                        </a>
-                                        <div class="dropdown-menu dropdown-menu-left">
-                                            <a class="dropdown-item" href="#m_modal_5" data-toggle="modal"
-                                               data-target="#m_modal_5"><i
-                                                        class="la la-close"></i> تعطيل </a>
-                                            <a class="dropdown-item" href="#">
-                                                   <i class="la la-comment-o"></i> رسائل المستخدم</a>
-                                            <a class="dropdown-item" href="reservations.php">
-                                                   <i class="la la-calendar-check-o"></i> الحجوزات</a>
-                                            <a class="dropdown-item" href="#">
-                                                   <i class="la la-calendar-plus-o"></i> طلب الحجوزات</a>
-                                               <a class="dropdown-item" href="#m_modal_3" data-toggle="modal"
-                                                  data-target="#m_modal_3">
-                                                   <i class="la la-trash"></i> حذف</a>
-                                            </div>
-                                    </span>
+                                    <a href="#"
+                                       class="btn btn-outline-brand m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill m-btn--air"
+                                       data-toggle="modal" data-target="#m_daterangepicker_modal">
+                                        <i class="fas fa-pen-fancy"></i>
+                                    </a>
                                 </td>
                                 <td>
                                     <a href="profile.php"
@@ -211,31 +185,17 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>3</td>
+                                <td>1</td>
                                 <td>حمزة ابو عيطة</td>
+                                <td>نور زيادة</td>
+                                <td>اسم العقار</td>
                                 <td><span class="m-badge  m-badge--success m-badge--wide">مفعل</span></td>
                                 <td>
-                                     <span class="dropdown">
-                                        <a href="#"
-                                           class="btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill"
-                                           data-toggle="dropdown"
-                                           aria-expanded="true"><i class="la la-ellipsis-h"></i>
-                                        </a>
-                                        <div class="dropdown-menu dropdown-menu-left">
-                                            <a class="dropdown-item" href="#m_modal_5" data-toggle="modal"
-                                               data-target="#m_modal_5"><i
-                                                        class="la la-check"></i> تفعيل </a>
-                                             <a class="dropdown-item" href="#">
-                                                   <i class="la la-comment-o"></i> رسائل المستخدم</a>
-                                            <a class="dropdown-item" href="reservations.php">
-                                                   <i class="la la-calendar-check-o"></i> الحجوزات</a>
-                                            <a class="dropdown-item" href="#">
-                                                   <i class="la la-calendar-plus-o"></i> طلب الحجوزات</a>
-                                               <a class="dropdown-item" href="#m_modal_3" data-toggle="modal"
-                                                  data-target="#m_modal_3">
-                                                   <i class="la la-trash"></i> حذف</a>
-                                        </div>
-                                    </span>
+                                    <a href="#"
+                                       class="btn btn-outline-brand m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill m-btn--air"
+                                       data-toggle="modal" data-target="#m_daterangepicker_modal">
+                                        <i class="fas fa-pen-fancy"></i>
+                                    </a>
                                 </td>
                                 <td>
                                     <a href="profile.php"
@@ -244,7 +204,6 @@
                                     </a>
                                 </td>
                             </tr>
-
                             </tbody>
                         </table>
                     </div>
@@ -254,7 +213,12 @@
             </div>
         </div>
     </div>
-
+    <div class='input-group' id='m_daterangepicker_2_validate'>
+        <input type='text' class="form-control m-input" readonly placeholder="Select date range" />
+        <div class="input-group-append">
+            <span class="input-group-text"><i class="la la-calendar-check-o"></i></span>
+        </div>
+    </div>
     <!-- end:: Body -->
 
     <?php include 'footer.php' ?>
@@ -339,6 +303,37 @@
 </div>
 
 <!--end::Modal-->
+<div class="modal fade" id="m_daterangepicker_modal" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="">تعديل التاريخ</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" class="la la-remove"></span>
+                </button>
+            </div>
+            <form class="m-form m-form--fit m-form--label-align-right">
+                <div class="modal-body">
+                    <div class="form-group m-form__group row">
+                        <label class="col-form-label col-lg-3 col-sm-12">تعديل التاريخ</label>
+                        <div class=" col-md-9 col-sm-12">
+                            <div class='input-group' id='m_daterangepicker_2'>
+                                <input type='text' class="form-control m-input" readonly placeholder="2019-05-01 / 2019-05-15" />
+                                <div class="input-group-append">
+                                    <span class="input-group-text"><i class="la la-calendar-check-o"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-brand m-btn" data-dismiss="modal">اغلاق</button>
+                    <button type="button" class="btn btn-secondary m-btn">تأكيد</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
 
 
 <!--begin::Global Theme Bundle -->
@@ -347,11 +342,13 @@
 
 <!--end::Global Theme Bundle -->
 
-
+<script src="assets/demo/default/custom/crud/forms/widgets/bootstrap-daterangepicker.js"
+        type="text/javascript"></script>
 <!--begin::Page Scripts -->
 <script src="assets/vendors/custom/datatables/datatables.bundle.js" type="text/javascript"></script>
 
 <script src="assets/demo/default/custom/crud/datatables/basic/headers.js" type="text/javascript"></script>
+
 
 <!--end::Page Scripts -->
 </body>

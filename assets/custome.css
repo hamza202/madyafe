@@ -268,3 +268,6 @@ span.infobox_rate {
     display: inline-block;
     margin-left: 5px;
 }
+.daterangepicker thead .fa.fa-chevron-right, .daterangepicker thead .fa.fa-chevron-left{
+    transform: rotate(180deg);
+}
