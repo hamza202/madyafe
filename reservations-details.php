@@ -148,11 +148,7 @@
                                                     receive updated styles from Bootstrap with additional classes.
                                                 </div>
                                             </div>
-                                            <div class="form-group m-form__group row">
-                                                <div class="col-10 ml-auto">
-                                                    <h3 class="m-form__section">تفاصيل الحجز</h3>
-                                                </div>
-                                            </div>
+                                         
                                             <div class="form-group m-form__group row">
                                                 <label for="u-name" class="col-3 col-form-label">اسم المستخدم</label>
                                                 <div class="col-7">

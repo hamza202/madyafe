@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5263832b-ad7d-4532-a3e6-43b0b3e2787e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservations.php" beforeDir="false" afterPath="$PROJECT_DIR$/reservations.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservations-details.php" beforeDir="false" afterPath="$PROJECT_DIR$/reservations-details.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,8 +69,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/reservations-details.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="223" column="38" lean-forward="true" selection-start-line="223" selection-start-column="38" selection-end-line="223" selection-end-column="38" />
+            <state relative-caret-position="143">
+              <caret line="150" column="41" selection-start-line="150" selection-start-column="41" selection-end-line="150" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -115,6 +114,7 @@
       <find>opens</find>
       <find>far fa-eye</find>
       <find>تعديل</find>
+      <find>تفاصيل الحجز</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -201,12 +201,12 @@
       <workItem from="1556325564773" duration="196000" />
       <workItem from="1556610743409" duration="8283000" />
       <workItem from="1558182630292" duration="4058000" />
-      <workItem from="1558265571025" duration="1513000" />
+      <workItem from="1558265571025" duration="1788000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30160000" />
+    <option name="totallyTimeSpent" value="30435000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -326,8 +326,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/reservations-details.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="223" column="38" lean-forward="true" selection-start-line="223" selection-start-column="38" selection-end-line="223" selection-end-column="38" />
+        <state relative-caret-position="143">
+          <caret line="150" column="41" selection-start-line="150" selection-start-column="41" selection-end-line="150" selection-end-column="41" />
         </state>
       </provider>
     </entry>
