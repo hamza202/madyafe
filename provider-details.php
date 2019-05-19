@@ -111,7 +111,7 @@
             <div class="m-subheader ">
                 <div class="d-flex align-items-center">
                     <div class="mr-auto">
-                        <h3 class="m-subheader__title ">بروفايل المستخدم</h3>
+                        <h3 class="m-subheader__title ">تفاصيل المزود</h3>
                     </div>
                 </div>
             </div>
@@ -122,45 +122,50 @@
                     <div class="col-xl-3 col-lg-4">
                         <div class="m-portlet m-portlet--full-height  ">
                             <div class="m-portlet__body">
-
+                                <div class="m-card-profile">
+                                    <div class="m-card-profile__pic">
+                                        <div class="m-card-profile__pic-wrapper">
+                                            <img src="assets/app/media/img/users/user4.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="profile-btn-option">
-                                <a href="#" data-toggle="modal" data-target="#m_modal_5"
-                                   class="btn btn-success m-btn m-btn--custom m-btn--icon d-block text-center ">
+                                    <a href="#" data-toggle="modal" data-target="#m_modal_5"
+                                       class="btn btn-success m-btn m-btn--custom m-btn--icon d-block text-center ">
                                     <span class="m-auto">
                                         <i class="la la-check"></i>
                                         <span>تفعيل </span>
                                     </span>
-                                </a>
-                                <a href="#m_modal_5" data-toggle="modal" data-target="#m_modal_5"
-                                   class="btn btn-warning  m-btn m-btn--custom m-btn--icon d-block text-center mt-3">
+                                    </a>
+                                    <a href="#m_modal_5" data-toggle="modal" data-target="#m_modal_5"
+                                       class="btn btn-warning  m-btn m-btn--custom m-btn--icon d-block text-center mt-3">
                                     <span class="m-auto">
                                         <i class="la la-power-off"></i>
                                         <span>تعطيل </span>
                                     </span>
-                                </a>
-                                <a href="#"
-                                   class="btn btn-info  m-btn m-btn--custom m-btn--icon d-block text-center mt-3">
+                                    </a>
+                                    <a href="user-message.php"
+                                       class="btn btn-info  m-btn m-btn--custom m-btn--icon d-block text-center mt-3">
                                     <span class="m-auto">
                                         <i class="la la-comment-o"></i>
-                                        <span>رسائل المستخدم</span>
+                                        <span>رسائل المزود</span>
                                     </span>
-                                </a>
-                                <a href="reservations.php"
-                                   class="btn btn-primary m-btn m-btn--custom m-btn--icon d-block text-center mt-3">
+                                    </a>
+                                    <a href="#"
+                                       class="btn btn-primary m-btn m-btn--custom m-btn--icon d-block text-center mt-3">
                                     <span class="m-auto">
                                         <i class="la la-calendar-plus-o"></i>
-                                        <span>الحجوزات</span>
+                                        <span>العروض</span>
                                     </span>
-                                </a>
-                                <a href="#m_modal_3" data-toggle="modal" data-target="#m_modal_3"
-                                   class="btn btn-danger m-btn m-btn--custom m-btn--icon d-block text-center mt-3">
+                                    </a>
+                                    <a href="#m_modal_3" data-toggle="modal" data-target="#m_modal_3"
+                                       class="btn btn-dark m-btn m-btn--custom m-btn--icon d-block text-center mt-3">
                                     <span class="m-auto">
-                                        <i class="la la-trash"></i>
-                                        <span>حذف</span>
+                                        <i class="la la-suitcase"></i>
+                                        <span>خدمات المزود</span>
                                     </span>
-                                </a>
+                                    </a>
                                 </div>
-
                                 <div class="m-portlet__body-separator"></div>
                             </div>
                         </div>
@@ -177,45 +182,50 @@
                                                     receive updated styles from Bootstrap with additional classes.
                                                 </div>
                                             </div>
-                                            <div class="form-group m-form__group row">
-                                                <div class="col-10 ml-auto">
-                                                    <h3 class="m-form__section">بيانات المستخدم</h3>
-                                                </div>
-                                            </div>
-                                            <div class="form-group m-form__group row">
-                                                <label for="name" class="col-2 col-form-label">الأسم</label>
-                                                <div class="col-7">
-                                                    <input class="form-control m-input" id="name" type="text" value="حمزة ابو عيطة" disabled>
-                                                </div>
-                                            </div>
-                                            <div class="form-group m-form__group row">
-                                                <label for="email"
-                                                       class="col-2 col-form-label">بريد الكتروني</label>
-                                                <div class="col-7">
-                                                    <input class="form-control m-input" id="email" type="email" value="hamza@hotmail.com" disabled>
-                                                </div>
-                                            </div>
-                                            <div class="form-group m-form__group row">
-                                                <label for="phone_number"
-                                                       class="col-2 col-form-label">رقم الجوال</label>
-                                                <div class="col-7">
-                                                    <input class="form-control m-input" id="phone_number" type="text" value="0595779004" disabled>
-                                                </div>
-                                            </div>
-                                            <div class="form-group m-form__group row">
-                                                <label for="cty"
-                                                       class="col-2 col-form-label">المدينة</label>
-                                                <div class="col-7">
-                                                    <input class="form-control m-input" id="cty" type="text" value="السعودية - جدة" disabled>
-                                                </div>
-                                            </div>
-                                            <div class="form-group m-form__group ">
-                                                <div id="map" style="width:100%; height: 350px"></div>
-                                            </div>
-                                            <div class="m-form__seperator m-form__seperator--dashed m-form__seperator--space-2x"></div>
 
+                                            <div class="form-group m-form__group row">
+                                                <label for="u-name" class="col-3 col-form-label">اسم المزود</label>
+                                                <div class="col-7">
+                                                    <input class="form-control m-input" id="u-name" type="text"
+                                                           value="حمزة ابو عيطة" disabled>
+                                                </div>
+                                            </div>
+                                            <div class="form-group m-form__group row">
+                                                <label for="type" class="col-3 col-form-label">جوال المزود</label>
+                                                <div class="col-7">
+                                                    <input class="form-control m-input" id="type" type="text"
+                                                           value="0595779004" disabled>
+                                                </div>
+                                            </div>
+                                            <div class="form-group m-form__group row">
+                                                <label for="type2"
+                                                       class="col-3 col-form-label">البريد الإلكتروني</label>
+                                                <div class="col-7">
+                                                    <input class="form-control m-input" id="type2" type="email"
+                                                           value="hamza@hotmail.com" disabled>
+                                                </div>
+                                            </div>
+                                            <div class="form-group m-form__group row">
+                                                <label for="code"
+                                                       class="col-3 col-form-label">المدينة</label>
+                                                <div class="col-7">
+                                                    <input class="form-control m-input" id="code" type="text"
+                                                           value="المدينة" disabled>
+                                                </div>
+                                            </div>
+                                            <div class="form-group m-form__group row">
+                                                <label for="state"
+                                                       class="col-3 col-form-label">الحالة</label>
+                                                <div class="col-7">
+                                                    <input class="form-control m-input" id="state" type="text"
+                                                           value="متاح" disabled>
+                                                </div>
+                                            </div>
                                         </div>
                                     </form>
+                                    <div class="form-group m-form__group ">
+                                        <div id="map" style="width:100%; height: 350px"></div>
+                                    </div>
                                 </div>
 
                             </div>
@@ -241,7 +251,6 @@
 
 <!-- end::Scroll Top -->
 
-<!--begin::Modal-->
 <div class="modal fade" id="m_modal_5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
      aria-hidden="true">
     <div class="modal-dialog modal-sm" role="document">
@@ -264,60 +273,6 @@
         </div>
     </div>
 </div>
-<div class="modal fade" id="m_modal_4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1"
-     aria-hidden="true">
-    <div class="modal-dialog modal-sm" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel1">اضافة للمميز</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <p>
-                    هل انت متأكد من اضافة هذا الحساب للحسابات المميزة؟
-                </p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
-                <button type="button" class="btn btn-success">تأكيد</button>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="modal fade" id="m_modal_3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2"
-     aria-hidden="true">
-    <div class="modal-dialog modal-sm" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel2">حذف الحساب</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <p>
-                    هل انت متأكد من حذف هذا الحساب؟
-                </p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
-                <button type="button" class="btn btn-danger">تأكيد</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!--end::Modal-->
-<!--begin::Global Theme Bundle -->
-<script src="assets/vendors/base/vendors.bundle.js" type="text/javascript"></script>
-<script src="assets/demo/default/base/scripts.bundle.js" type="text/javascript"></script>
-
-<!--end::Global Theme Bundle -->
-
-
-<!--begin::Page Scripts -->
 <script>
 
     function initMap() {
@@ -338,8 +293,13 @@
 <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwQWgqTGypi82vAyP97l2O5Zi_RBiVA5E&callback=initMap">
 </script>
+<!--begin::Global Theme Bundle -->
+<script src="assets/vendors/base/vendors.bundle.js" type="text/javascript"></script>
+<script src="assets/demo/default/base/scripts.bundle.js" type="text/javascript"></script>
 
-<!--end::Page Scripts -->
+<!--end::Global Theme Bundle -->
+
+
 </body>
 
 <!-- end::Body -->
