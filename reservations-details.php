@@ -148,7 +148,7 @@
                                                     receive updated styles from Bootstrap with additional classes.
                                                 </div>
                                             </div>
-                                         
+
                                             <div class="form-group m-form__group row">
                                                 <label for="u-name" class="col-3 col-form-label">اسم المستخدم</label>
                                                 <div class="col-7">
@@ -210,11 +210,7 @@
                                                            value="visa" disabled>
                                                 </div>
                                             </div>
-                                            <div class="form-group m-form__group ">
-                                                <div id="map" style="width:100%; height: 350px"></div>
-                                            </div>
-                                            <div class="m-form__seperator m-form__seperator--dashed m-form__seperator--space-2x"></div>
-
+                                            
                                         </div>
                                     </form>
                                 </div>
