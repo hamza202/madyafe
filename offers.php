@@ -111,7 +111,7 @@
             <div class="m-subheader ">
                 <div class="d-flex align-items-center">
                     <div class="mr-auto">
-                        <h3 class="m-subheader__title ">مزودي الخدمة</h3>
+                        <h3 class="m-subheader__title ">العروض</h3>
                     </div>
                 </div>
             </div>
@@ -123,7 +123,7 @@
                         <div class="m-portlet__head-caption">
                             <div class="m-portlet__head-title">
                                 <h3 class="m-portlet__head-text">
-                                    مزودي الخدمة
+                                    كل العروض
                                 </h3>
                             </div>
                         </div>
@@ -169,7 +169,7 @@
                                     </span>
                                 </td>
                                 <td>
-                                    <a href="provider-details.php"
+                                    <a href="offers-details.php"
                                        class="btn btn-outline-info m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill m-btn--air">
                                         <i class="far fa-eye"></i>
                                     </a>
@@ -198,7 +198,7 @@
                                     </span>
                                 </td>
                                 <td>
-                                    <a href="provider-details.php"
+                                    <a href="offers-details.php"
                                        class="btn btn-outline-info m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill m-btn--air">
                                         <i class="far fa-eye"></i>
                                     </a>
@@ -228,7 +228,7 @@
                                     </span>
                                 </td>
                                 <td>
-                                    <a href="provider-details.php"
+                                    <a href="offers-details.php"
                                        class="btn btn-outline-info m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill m-btn--air">
                                         <i class="far fa-eye"></i>
                                     </a>

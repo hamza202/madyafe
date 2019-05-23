@@ -122,13 +122,6 @@
                     <div class="col-xl-3 col-lg-4">
                         <div class="m-portlet m-portlet--full-height  ">
                             <div class="m-portlet__body">
-                                <div class="m-card-profile">
-                                    <div class="m-card-profile__pic">
-                                        <div class="m-card-profile__pic-wrapper">
-                                            <img src="assets/app/media/img/users/user4.jpg" alt="">
-                                        </div>
-                                    </div>
-                                </div>
                                 <div class="profile-btn-option">
                                     <a href="#" data-toggle="modal" data-target="#m_modal_5"
                                        class="btn btn-success m-btn m-btn--custom m-btn--icon d-block text-center ">
@@ -144,27 +137,14 @@
                                         <span>تعطيل </span>
                                     </span>
                                     </a>
-                                    <a href="user-message.php"
-                                       class="btn btn-info  m-btn m-btn--custom m-btn--icon d-block text-center mt-3">
-                                    <span class="m-auto">
-                                        <i class="la la-comment-o"></i>
-                                        <span>رسائل المزود</span>
-                                    </span>
-                                    </a>
-                                    <a href="#"
+                                    <a href="#" data-toggle="modal" data-target="#m_daterangepicker_modal"
                                        class="btn btn-primary m-btn m-btn--custom m-btn--icon d-block text-center mt-3">
                                     <span class="m-auto">
-                                        <i class="la la-calendar-plus-o"></i>
-                                        <span>العروض</span>
+                                        <i class="la la-calendar-o"></i>
+                                        <span>تعديل التاريخ</span>
                                     </span>
                                     </a>
-                                    <a href="#m_modal_3" data-toggle="modal" data-target="#m_modal_3"
-                                       class="btn btn-dark m-btn m-btn--custom m-btn--icon d-block text-center mt-3">
-                                    <span class="m-auto">
-                                        <i class="la la-suitcase"></i>
-                                        <span>خدمات المزود</span>
-                                    </span>
-                                    </a>
+
                                 </div>
                                 <div class="m-portlet__body-separator"></div>
                             </div>
@@ -184,48 +164,70 @@
                                             </div>
 
                                             <div class="form-group m-form__group row">
-                                                <label for="u-name" class="col-3 col-form-label">اسم المزود</label>
+                                                <label for="u-name" class="col-3 col-form-label">اسم العرض</label>
                                                 <div class="col-7">
-                                                    <input class="form-control m-input" id="u-name" type="text"
+                                                    <input class="form-control m-input" type="text"
                                                            value="حمزة ابو عيطة" disabled>
                                                 </div>
                                             </div>
                                             <div class="form-group m-form__group row">
-                                                <label for="type" class="col-3 col-form-label">جوال المزود</label>
+                                                <label for="type" class="col-3 col-form-label">نوع الخدمة</label>
                                                 <div class="col-7">
-                                                    <input class="form-control m-input" id="type" type="text"
-                                                           value="0595779004" disabled>
+                                                    <input class="form-control m-input" type="text"
+                                                           value="نوع الخدمة" disabled>
                                                 </div>
                                             </div>
                                             <div class="form-group m-form__group row">
                                                 <label for="type2"
-                                                       class="col-3 col-form-label">البريد الإلكتروني</label>
+                                                       class="col-3 col-form-label">كود العرض</label>
                                                 <div class="col-7">
-                                                    <input class="form-control m-input" id="type2" type="email"
-                                                           value="hamza@hotmail.com" disabled>
+                                                    <input class="form-control m-input" type="text"
+                                                           value="كود العرض" disabled>
                                                 </div>
                                             </div>
                                             <div class="form-group m-form__group row">
                                                 <label for="code"
-                                                       class="col-3 col-form-label">المدينة</label>
-                                                <div class="col-7">
-                                                    <input class="form-control m-input" id="code" type="text"
-                                                           value="المدينة" disabled>
+                                                       class="col-md-3 col-3 col-form-label">من</label>
+                                                <div class="col-md-3 col-7">
+                                                    <input class="form-control m-input" type="text"
+                                                           value="2019/05/24" disabled>
+                                                </div>
+                                                <label for="code"
+                                                       class="col-md-1 col-3 col-form-label mt-4 mt-md-0">الى</label>
+                                                <div class="col-md-3 col-7">
+                                                    <input class="form-control m-input mt-4 mt-md-0" type="text"
+                                                           value="2019/05/24" disabled>
                                                 </div>
                                             </div>
                                             <div class="form-group m-form__group row">
                                                 <label for="state"
                                                        class="col-3 col-form-label">الحالة</label>
                                                 <div class="col-7">
-                                                    <input class="form-control m-input" id="state" type="text"
+                                                    <input class="form-control m-input" type="text"
                                                            value="متاح" disabled>
+                                                </div>
+                                            </div>
+                                            <div class="form-group m-form__group row">
+                                                <label for="state"
+                                                       class="col-3 col-form-label">نسبة الخصم</label>
+                                                <div class="col-7">
+                                                    <input class="form-control m-input" type="text"
+                                                           value="نسبة الخصم" disabled>
+                                                </div>
+                                            </div>
+                                            <div class="form-group m-form__group row">
+                                                <label for="state"
+                                                       class="col-3 col-form-label">تفاصيل العرض</label>
+                                                <div class="col-7">
+                                                    <textarea class="form-control m-input " rows="8" type="text"
+                                                              disabled>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي
+                                                    </textarea>
                                                 </div>
                                             </div>
                                         </div>
                                     </form>
-                                    <div class="form-group m-form__group ">
-                                        <div id="map" style="width:100%; height: 350px"></div>
-                                    </div>
+
                                 </div>
 
                             </div>
@@ -273,30 +275,43 @@
         </div>
     </div>
 </div>
-<script>
-
-    function initMap() {
-        var myLatLng = {lat: -25.363, lng: 131.044};
-
-        var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 15,
-            center: myLatLng
-        });
-
-        var marker = new google.maps.Marker({
-            position: myLatLng,
-            map: map,
-            title: 'Hello World!'
-        });
-    }
-</script>
-<script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwQWgqTGypi82vAyP97l2O5Zi_RBiVA5E&callback=initMap">
-</script>
+<div class="modal fade" id="m_daterangepicker_modal" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="">تعديل التاريخ</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" class="la la-remove"></span>
+                </button>
+            </div>
+            <form class="m-form m-form--fit m-form--label-align-right">
+                <div class="modal-body">
+                    <div class="form-group m-form__group row">
+                        <label class="col-form-label col-lg-3 col-sm-12">تعديل التاريخ</label>
+                        <div class=" col-md-9 col-sm-12">
+                            <div class='input-group' id='m_daterangepicker_2'>
+                                <input type='text' class="form-control m-input" readonly
+                                       placeholder="2019-05-01 / 2019-05-15"/>
+                                <div class="input-group-append">
+                                    <span class="input-group-text"><i class="la la-calendar-check-o"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-brand m-btn" data-dismiss="modal">اغلاق</button>
+                    <button type="button" class="btn btn-secondary m-btn">تأكيد</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
 <!--begin::Global Theme Bundle -->
 <script src="assets/vendors/base/vendors.bundle.js" type="text/javascript"></script>
 <script src="assets/demo/default/base/scripts.bundle.js" type="text/javascript"></script>
-
+<script src="assets/demo/default/custom/crud/forms/widgets/bootstrap-daterangepicker.js"
+        type="text/javascript"></script>
 <!--end::Global Theme Bundle -->
 
 
