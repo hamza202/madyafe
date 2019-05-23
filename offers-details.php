@@ -111,7 +111,7 @@
             <div class="m-subheader ">
                 <div class="d-flex align-items-center">
                     <div class="mr-auto">
-                        <h3 class="m-subheader__title ">تفاصيل الحجز</h3>
+                        <h3 class="m-subheader__title ">تفاصيل المزود</h3>
                     </div>
                 </div>
             </div>
@@ -122,13 +122,47 @@
                     <div class="col-xl-3 col-lg-4">
                         <div class="m-portlet m-portlet--full-height  ">
                             <div class="m-portlet__body">
+                                <div class="m-card-profile">
+                                    <div class="m-card-profile__pic">
+                                        <div class="m-card-profile__pic-wrapper">
+                                            <img src="assets/app/media/img/users/user4.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="profile-btn-option">
+                                    <a href="#" data-toggle="modal" data-target="#m_modal_5"
+                                       class="btn btn-success m-btn m-btn--custom m-btn--icon d-block text-center ">
+                                    <span class="m-auto">
+                                        <i class="la la-check"></i>
+                                        <span>تفعيل </span>
+                                    </span>
+                                    </a>
+                                    <a href="#m_modal_5" data-toggle="modal" data-target="#m_modal_5"
+                                       class="btn btn-warning  m-btn m-btn--custom m-btn--icon d-block text-center mt-3">
+                                    <span class="m-auto">
+                                        <i class="la la-power-off"></i>
+                                        <span>تعطيل </span>
+                                    </span>
+                                    </a>
+                                    <a href="user-message.php"
+                                       class="btn btn-info  m-btn m-btn--custom m-btn--icon d-block text-center mt-3">
+                                    <span class="m-auto">
+                                        <i class="la la-comment-o"></i>
+                                        <span>رسائل المزود</span>
+                                    </span>
+                                    </a>
                                     <a href="#"
-                                       data-toggle="modal" data-target="#m_daterangepicker_modal"
                                        class="btn btn-primary m-btn m-btn--custom m-btn--icon d-block text-center mt-3">
                                     <span class="m-auto">
-                                        <i class="la la-calendar-o"></i>
-                                        <span>تعديل التاريخ</span>
+                                        <i class="la la-calendar-plus-o"></i>
+                                        <span>العروض</span>
+                                    </span>
+                                    </a>
+                                    <a href="#m_modal_3" data-toggle="modal" data-target="#m_modal_3"
+                                       class="btn btn-dark m-btn m-btn--custom m-btn--icon d-block text-center mt-3">
+                                    <span class="m-auto">
+                                        <i class="la la-suitcase"></i>
+                                        <span>خدمات المزود</span>
                                     </span>
                                     </a>
                                 </div>
@@ -150,40 +184,33 @@
                                             </div>
 
                                             <div class="form-group m-form__group row">
-                                                <label for="u-name" class="col-3 col-form-label">اسم المستخدم</label>
+                                                <label for="u-name" class="col-3 col-form-label">اسم المزود</label>
                                                 <div class="col-7">
                                                     <input class="form-control m-input" id="u-name" type="text"
                                                            value="حمزة ابو عيطة" disabled>
                                                 </div>
                                             </div>
                                             <div class="form-group m-form__group row">
-                                                <label for="name" class="col-3 col-form-label">اسم مزود الخدمة</label>
-                                                <div class="col-7">
-                                                    <input class="form-control m-input" id="name" type="text"
-                                                           value="حمزة ابو عيطة" disabled>
-                                                </div>
-                                            </div>
-                                            <div class="form-group m-form__group row">
-                                                <label for="type" class="col-3 col-form-label">نوع الحجز</label>
+                                                <label for="type" class="col-3 col-form-label">جوال المزود</label>
                                                 <div class="col-7">
                                                     <input class="form-control m-input" id="type" type="text"
-                                                           value="حمزة ابو عيطة" disabled>
+                                                           value="0595779004" disabled>
                                                 </div>
                                             </div>
                                             <div class="form-group m-form__group row">
                                                 <label for="type2"
-                                                       class="col-3 col-form-label">نوع العقار</label>
+                                                       class="col-3 col-form-label">البريد الإلكتروني</label>
                                                 <div class="col-7">
-                                                    <input class="form-control m-input" id="type2" type="text"
-                                                           value="نوع العقار" disabled>
+                                                    <input class="form-control m-input" id="type2" type="email"
+                                                           value="hamza@hotmail.com" disabled>
                                                 </div>
                                             </div>
                                             <div class="form-group m-form__group row">
                                                 <label for="code"
-                                                       class="col-3 col-form-label">كود الحجز</label>
+                                                       class="col-3 col-form-label">المدينة</label>
                                                 <div class="col-7">
                                                     <input class="form-control m-input" id="code" type="text"
-                                                           value="9898565684" disabled>
+                                                           value="المدينة" disabled>
                                                 </div>
                                             </div>
                                             <div class="form-group m-form__group row">
@@ -194,25 +221,11 @@
                                                            value="متاح" disabled>
                                                 </div>
                                             </div>
-                                            <div class="form-group m-form__group row">
-                                                <label for="price"
-                                                       class="col-3 col-form-label">المبلغ</label>
-                                                <div class="col-7">
-                                                    <input class="form-control m-input" id="price" type="text"
-                                                           value="50$" disabled>
-                                                </div>
-                                            </div>
-                                            <div class="form-group m-form__group row">
-                                                <label for="price"
-                                                       class="col-3 col-form-label">طريقة الدفع</label>
-                                                <div class="col-7">
-                                                    <input class="form-control m-input" id="price" type="text"
-                                                           value="visa" disabled>
-                                                </div>
-                                            </div>
-
                                         </div>
                                     </form>
+                                    <div class="form-group m-form__group ">
+                                        <div id="map" style="width:100%; height: 350px"></div>
+                                    </div>
                                 </div>
 
                             </div>
@@ -238,45 +251,52 @@
 
 <!-- end::Scroll Top -->
 
-
-<div class="modal fade" id="m_daterangepicker_modal" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
+<div class="modal fade" id="m_modal_5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-sm" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="">تعديل التاريخ</h5>
+                <h5 class="modal-title" id="exampleModalLabel">تفعيل الحساب</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true" class="la la-remove"></span>
+                    <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <form class="m-form m-form--fit m-form--label-align-right">
-                <div class="modal-body">
-                    <div class="form-group m-form__group row">
-                        <label class="col-form-label col-lg-3 col-sm-12">تعديل التاريخ</label>
-                        <div class=" col-md-9 col-sm-12">
-                            <div class='input-group' id='m_daterangepicker_2'>
-                                <input type='text' class="form-control m-input" readonly
-                                       placeholder="2019-05-01 / 2019-05-15"/>
-                                <div class="input-group-append">
-                                    <span class="input-group-text"><i class="la la-calendar-check-o"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-brand m-btn" data-dismiss="modal">اغلاق</button>
-                    <button type="button" class="btn btn-secondary m-btn">تأكيد</button>
-                </div>
-            </form>
+            <div class="modal-body">
+                <p>
+                    هل انت متأكد من تفعيل هذا الحساب؟
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
+                <button type="button" class="btn btn-success">تأكيد</button>
+            </div>
         </div>
     </div>
 </div>
+<script>
 
+    function initMap() {
+        var myLatLng = {lat: -25.363, lng: 131.044};
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 15,
+            center: myLatLng
+        });
+
+        var marker = new google.maps.Marker({
+            position: myLatLng,
+            map: map,
+            title: 'Hello World!'
+        });
+    }
+</script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwQWgqTGypi82vAyP97l2O5Zi_RBiVA5E&callback=initMap">
+</script>
 <!--begin::Global Theme Bundle -->
 <script src="assets/vendors/base/vendors.bundle.js" type="text/javascript"></script>
 <script src="assets/demo/default/base/scripts.bundle.js" type="text/javascript"></script>
-<script src="assets/demo/default/custom/crud/forms/widgets/bootstrap-daterangepicker.js"
-        type="text/javascript"></script>
+
 <!--end::Global Theme Bundle -->
 
 
