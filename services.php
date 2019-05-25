@@ -5,7 +5,7 @@
 <!-- begin::Head -->
 <head>
     <meta charset="utf-8"/>
-    <title>مضيافي | مزودي الخدمات</title>
+    <title>مضيافي | المستخدمين</title>
     <meta name="description" content="Latest updates and statistic charts">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
 
@@ -111,7 +111,7 @@
             <div class="m-subheader ">
                 <div class="d-flex align-items-center">
                     <div class="mr-auto">
-                        <h3 class="m-subheader__title ">مزودي الخدمة</h3>
+                        <h3 class="m-subheader__title ">الخدمات</h3>
                     </div>
                 </div>
             </div>
@@ -123,7 +123,7 @@
                         <div class="m-portlet__head-caption">
                             <div class="m-portlet__head-title">
                                 <h3 class="m-portlet__head-text">
-                                    مزودي الخدمة
+                                    خدمات المزود
                                 </h3>
                             </div>
                         </div>
@@ -135,16 +135,18 @@
                             <thead>
                             <tr>
                                 <th>ID</th>
-                                <th>اسم مزود الخدمة</th>
+                                <th>اسم الخدمة</th>
+                                <th>نوع الخدمة</th>
                                 <th>الحالة</th>
                                 <th>عمليات</th>
-                                <th>تفاصيل المزود</th>
+                                <th>تفاصيل الخدمة</th>
                             </tr>
                             </thead>
                             <tbody>
                             <tr>
                                 <td>1</td>
                                 <td>حمزة ابو عيطة</td>
+                                <td>شاليهات</td>
                                 <td><span class="m-badge  m-badge--success m-badge--wide">مفعل</span></td>
                                 <td>
                                      <span class="dropdown user-option">
@@ -157,17 +159,11 @@
                                             <a class="dropdown-item" href="#m_modal_5" data-toggle="modal"
                                                data-target="#m_modal_5"><i
                                                         class="la la-check"></i> تفعيل  </a>
-                                              <a class="dropdown-item" href="#">
-                                                   <i class="la la-comment-o"></i> رسائل المزود</a>
-                                            <a class="dropdown-item" href="offers.php">
-                                                   <i class="la la-calendar-check-o"></i> العروض</a>
-                                            <a class="dropdown-item" href="services.php">
-                                                   <i class="la la-calendar-plus-o"></i> خدماتة</a>
                                         </div>
                                     </span>
                                 </td>
                                 <td>
-                                    <a href="provider-details.php"
+                                    <a href="profile.php"
                                        class="btn btn-outline-info m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill m-btn--air">
                                         <i class="far fa-eye"></i>
                                     </a>
@@ -176,7 +172,8 @@
                             <tr>
                                 <td>2</td>
                                 <td>حمزة ابو عيطة</td>
-                                <td><span class="m-badge  m-badge--danger m-badge--wide">غير مفعل</span></td>
+                                <td>شاليهات</td>
+                                <td><span class="m-badge  m-badge--danger m-badge--wide">معطل</span></td>
                                 <td>
                                     <span class="dropdown">
                                         <a href="#"
@@ -188,17 +185,11 @@
                                             <a class="dropdown-item" href="#m_modal_5" data-toggle="modal"
                                                data-target="#m_modal_5"><i
                                                         class="la la-close"></i> تعطيل </a>
-                                            <a class="dropdown-item" href="#">
-                                                   <i class="la la-comment-o"></i> رسائل المزود</a>
-                                            <a class="dropdown-item" href="offers.php">
-                                                   <i class="la la-calendar-check-o"></i> العروض</a>
-                                            <a class="dropdown-item" href="services.php">
-                                                   <i class="la la-calendar-plus-o"></i> خدماتة</a>
                                             </div>
                                     </span>
                                 </td>
                                 <td>
-                                    <a href="provider-details.php"
+                                    <a href="profile.php"
                                        class="btn btn-outline-info m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill m-btn--air">
                                         <i class="far fa-eye"></i>
                                     </a>
@@ -207,6 +198,7 @@
                             <tr>
                                 <td>3</td>
                                 <td>حمزة ابو عيطة</td>
+                                <td>شاليهات</td>
                                 <td><span class="m-badge  m-badge--success m-badge--wide">مفعل</span></td>
                                 <td>
                                      <span class="dropdown">
@@ -219,17 +211,11 @@
                                             <a class="dropdown-item" href="#m_modal_5" data-toggle="modal"
                                                data-target="#m_modal_5"><i
                                                         class="la la-check"></i> تفعيل </a>
-                                           <a class="dropdown-item" href="#">
-                                                   <i class="la la-comment-o"></i> رسائل المزود</a>
-                                            <a class="dropdown-item" href="offers.php">
-                                                   <i class="la la-calendar-check-o"></i> العروض</a>
-                                            <a class="dropdown-item" href="services.php">
-                                                   <i class="la la-calendar-plus-o"></i> خدماتة</a>
                                         </div>
                                     </span>
                                 </td>
                                 <td>
-                                    <a href="provider-details.php"
+                                    <a href="profile.php"
                                        class="btn btn-outline-info m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill m-btn--air">
                                         <i class="far fa-eye"></i>
                                     </a>
