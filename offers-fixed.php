@@ -163,12 +163,11 @@
                                             <a class="dropdown-item" href="#m_modal_5" data-toggle="modal"
                                                data-target="#m_modal_5"><i
                                                         class="la la-check"></i> تفعيل  </a>
-                                            <a class="dropdown-item" href="#m_daterangepicker_modal"
-                                               data-toggle="modal">
+                                            <a class="dropdown-item"  href="#m_daterangepicker_modal" data-toggle="modal">
                                                    <i class="la la-calendar-plus-o"></i>  تعديل مدة العرض</a>
                                              <a class="dropdown-item" href="#m_modal_5" data-toggle="modal"
                                                 data-target="#m_modal_5"><i
-                                                         class="la la-thumb-tack"></i> تثبيت العرض </a>
+                                                         class="la la-close"></i> ازالة من التثبيت </a>
                                         </div>
                                     </span>
                                 </td>
@@ -197,12 +196,11 @@
                                             <a class="dropdown-item" href="#m_modal_5" data-toggle="modal"
                                                data-target="#m_modal_5"><i
                                                         class="la la-close"></i> تعطيل  </a>
-                                              <a class="dropdown-item" href="#m_daterangepicker_modal"
-                                                 data-toggle="modal">
+                                              <a class="dropdown-item"  href="#m_daterangepicker_modal" data-toggle="modal">
                                                    <i class="la la-calendar-plus-o"></i>  تعديل مدة العرض</a>
                                              <a class="dropdown-item" href="#m_modal_5" data-toggle="modal"
                                                 data-target="#m_modal_5"><i
-                                                         class="la la-thumb-tack"></i> تثبيت العرض </a>
+                                                         class="la la-close"></i> ازالة من التثبيت </a>
                                     </span>
                                 </td>
                                 <td>
@@ -230,12 +228,11 @@
                                             <a class="dropdown-item" href="#m_modal_5" data-toggle="modal"
                                                data-target="#m_modal_5"><i
                                                         class="la la-check"></i> تفعيل  </a>
-                                              <a class="dropdown-item" href="#m_daterangepicker_modal"
-                                                 data-toggle="modal">
-                                                  <i class="la la-calendar-plus-o"></i>  تعديل مدة العرض</a>
-                                             <a class="dropdown-item" href="#m_modal_5" data-toggle="modal"
-                                                data-target="#m_modal_5"><i
-                                                         class="la la-thumb-tack"></i> تثبيت العرض </a>
+                                              <a class="dropdown-item"  href="#m_daterangepicker_modal" data-toggle="modal">
+                                                   <i class="la la-calendar-plus-o"></i>  تعديل مدة العرض</a>
+                                            <a class="dropdown-item" href="#m_modal_5" data-toggle="modal"
+                                               data-target="#m_modal_5"><i
+                                                        class="la la-close"></i> ازالة من التثبيت </a>
                                         </div>
                                     </span>
                                 </td>
@@ -309,8 +306,7 @@
                         <label class="col-form-label col-lg-3 col-sm-12">تعديل التاريخ</label>
                         <div class=" col-md-9 col-sm-12">
                             <div class='input-group' id='m_daterangepicker_2'>
-                                <input type='text' class="form-control m-input" readonly
-                                       placeholder="2019-05-01 / 2019-05-15"/>
+                                <input type='text' class="form-control m-input" readonly placeholder="2019-05-01 / 2019-05-15" />
                                 <div class="input-group-append">
                                     <span class="input-group-text"><i class="la la-calendar-check-o"></i></span>
                                 </div>

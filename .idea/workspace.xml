@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="5263832b-ad7d-4532-a3e6-43b0b3e2787e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-providers.php" beforeDir="false" afterPath="$PROJECT_DIR$/service-providers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/offers.php" beforeDir="false" afterPath="$PROJECT_DIR$/offers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/services.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,17 +18,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-providers.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="163" column="89" lean-forward="true" selection-start-line="163" selection-start-column="89" selection-end-line="163" selection-end-column="89" />
+            <state relative-caret-position="2771">
+              <caret line="163" column="89" selection-start-line="163" selection-start-column="89" selection-end-line="163" selection-end-column="89" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4250">
+              <caret line="250" column="29" selection-start-line="250" selection-start-column="29" selection-end-line="250" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/offers.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="240" column="37" lean-forward="true" selection-start-line="240" selection-start-column="37" selection-end-line="240" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/menu.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="58" column="17" lean-forward="true" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/services.php">
+        <entry file="file://$PROJECT_DIR$/offers-fixed.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="230" column="18" lean-forward="true" selection-start-line="230" selection-start-column="18" selection-end-line="230" selection-end-column="18" />
+            <state relative-caret-position="227">
+              <caret line="234" column="102" selection-start-line="234" selection-start-column="102" selection-end-line="234" selection-end-column="102" />
             </state>
           </provider>
         </entry>
@@ -63,6 +92,7 @@
       <find>خدمات المزود</find>
       <find>خدما</find>
       <find>الع</find>
+      <find>تفعيل</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -83,11 +113,12 @@
         <option value="$PROJECT_DIR$/profile.php" />
         <option value="$PROJECT_DIR$/provider-details.php" />
         <option value="$PROJECT_DIR$/reservations-details.php" />
-        <option value="$PROJECT_DIR$/menu.php" />
-        <option value="$PROJECT_DIR$/offers.php" />
         <option value="$PROJECT_DIR$/offers-details.php" />
-        <option value="$PROJECT_DIR$/services.php" />
         <option value="$PROJECT_DIR$/service-providers.php" />
+        <option value="$PROJECT_DIR$/services.php" />
+        <option value="$PROJECT_DIR$/offers.php" />
+        <option value="$PROJECT_DIR$/menu.php" />
+        <option value="$PROJECT_DIR$/offers-fixed.php" />
       </list>
     </option>
   </component>
@@ -160,18 +191,20 @@
       <workItem from="1558524246998" duration="680000" />
       <workItem from="1558607900492" duration="5451000" />
       <workItem from="1558649968868" duration="1760000" />
-      <workItem from="1558787724262" duration="1995000" />
+      <workItem from="1558787724262" duration="2201000" />
+      <workItem from="1558791378124" duration="1211000" />
+      <workItem from="1558870384100" duration="1684000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46539000" />
+    <option name="totallyTimeSpent" value="49640000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1603631" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16490166" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -292,13 +325,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="39" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/offers-details.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3536">
@@ -327,24 +353,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/offers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="226" column="46" lean-forward="true" selection-start-line="226" selection-start-column="46" selection-end-line="226" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service-providers.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="163" column="89" lean-forward="true" selection-start-line="163" selection-start-column="89" selection-end-line="163" selection-end-column="89" />
+        <state relative-caret-position="2771">
+          <caret line="163" column="89" selection-start-line="163" selection-start-column="89" selection-end-line="163" selection-end-column="89" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/services.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="230" column="18" lean-forward="true" selection-start-line="230" selection-start-column="18" selection-end-line="230" selection-end-column="18" />
+        <state relative-caret-position="4250">
+          <caret line="250" column="29" selection-start-line="250" selection-start-column="29" selection-end-line="250" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/offers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="240" column="37" lean-forward="true" selection-start-line="240" selection-start-column="37" selection-end-line="240" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="58" column="17" lean-forward="true" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/offers-fixed.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="234" column="102" selection-start-line="234" selection-start-column="102" selection-end-line="234" selection-end-column="102" />
         </state>
       </provider>
     </entry>

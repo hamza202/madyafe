@@ -270,50 +270,7 @@
         </div>
     </div>
 </div>
-<div class="modal fade" id="m_modal_4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1"
-     aria-hidden="true">
-    <div class="modal-dialog modal-sm" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel1">اضافة للمميز</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <p>
-                    هل انت متأكد من اضافة هذا الحساب للحسابات المميزة؟
-                </p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
-                <button type="button" class="btn btn-success">تأكيد</button>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="modal fade" id="m_modal_3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2"
-     aria-hidden="true">
-    <div class="modal-dialog modal-sm" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel2">حذف الحساب</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <p>
-                    هل انت متأكد من حذف هذا الحساب؟
-                </p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
-                <button type="button" class="btn btn-danger">تأكيد</button>
-            </div>
-        </div>
-    </div>
-</div>
+
 
 <!--end::Modal-->
 
