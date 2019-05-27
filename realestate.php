@@ -5,7 +5,7 @@
 <!-- begin::Head -->
 <head>
     <meta charset="utf-8"/>
-    <title>مضيافي | المستخدمين</title>
+    <title>مضيافي | العقارات</title>
     <meta name="description" content="Latest updates and statistic charts">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
 
@@ -111,7 +111,7 @@
             <div class="m-subheader ">
                 <div class="d-flex align-items-center">
                     <div class="mr-auto">
-                        <h3 class="m-subheader__title ">تفاصيل الخدمات</h3>
+                        <h3 class="m-subheader__title ">العقارات</h3>
                     </div>
                 </div>
             </div>
@@ -123,7 +123,7 @@
                         <div class="m-portlet__head-caption">
                             <div class="m-portlet__head-title">
                                 <h3 class="m-portlet__head-text">
-                                    العقارات التابعه للخدمة
+                                    جميع العقارات
                                 </h3>
                             </div>
                         </div>
@@ -164,6 +164,9 @@
                                                  <a class="dropdown-item" href="#m_modal_5" data-toggle="modal"
                                                     data-target="#m_modal_5"><i
                                                              class="la la-check-square"></i> تمكين الحجز  </a>
+                                                <a class="dropdown-item" href="#m_modal_5" data-toggle="modal"
+                                                   data-target="#m_modal_5"><i
+                                                            class="la la-thumb-tack"></i> تثبيت العقار </a>
                                             </div>
                                         </span>
                                     </td>
@@ -194,6 +197,9 @@
                                                 <a class="dropdown-item" href="#m_modal_5" data-toggle="modal"
                                                    data-target="#m_modal_5"><i
                                                             class="la la-times-circle-o"></i> ايقاف الحجز </a>
+                                                     <a class="dropdown-item" href="#m_modal_5" data-toggle="modal"
+                                                        data-target="#m_modal_5"><i
+                                                                 class="la la-thumb-tack"></i> تثبيت العقار </a>
                                                 </div>
                                         </span>
                                     </td>
@@ -224,6 +230,9 @@
                                                    <a class="dropdown-item" href="#m_modal_5" data-toggle="modal"
                                                       data-target="#m_modal_5"><i
                                                                class="la la-times-circle-o"></i> ايقاف الحجز </a>
+                                                      <a class="dropdown-item" href="#m_modal_5" data-toggle="modal"
+                                                         data-target="#m_modal_5"><i
+                                                                  class="la la-thumb-tack"></i> تثبيت العقار </a>
                                             </div>
                                         </span>
                                     </td>
