@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5263832b-ad7d-4532-a3e6-43b0b3e2787e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/custome.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/custome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/property-details.php" beforeDir="false" afterPath="$PROJECT_DIR$/property-details.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services-d-table.php" beforeDir="false" afterPath="$PROJECT_DIR$/services-d-table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/services.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,74 +15,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-providers.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2771">
-              <caret line="163" column="89" selection-start-line="163" selection-start-column="89" selection-end-line="163" selection-end-column="89" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="166" column="82" selection-start-line="166" selection-start-column="82" selection-end-line="166" selection-end-column="82" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/offers.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4080">
-              <caret line="240" column="37" lean-forward="true" selection-start-line="240" selection-start-column="37" selection-end-line="240" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/menu.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="70" column="77" lean-forward="true" selection-start-line="70" selection-start-column="77" selection-end-line="70" selection-end-column="77" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/realestate.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/realestate-fixed.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="217" column="13" selection-start-line="217" selection-start-column="13" selection-end-line="217" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/offers-fixed.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="261" lean-forward="true" selection-start-line="261" selection-end-line="261" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/property-details.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="378" column="2" selection-start-line="378" selection-start-column="2" selection-end-line="378" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/custome.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4607">
+              <caret line="271" column="30" lean-forward="true" selection-start-line="271" selection-start-column="30" selection-end-line="271" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/services-d-table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="206" column="36" lean-forward="true" selection-start-line="206" selection-start-column="36" selection-end-line="206" selection-end-column="36" />
+            <state relative-caret-position="3213">
+              <caret line="189" column="47" lean-forward="true" selection-start-line="189" selection-start-column="47" selection-end-line="189" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -90,8 +46,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>inline-logo-wight.png</find>
-      <find>assets/images/inline-logo-wight.png</find>
       <find>logo</find>
       <find>m-card-profile__details</find>
       <find>بروفايل</find>
@@ -120,6 +74,8 @@
       <find>الع</find>
       <find>تفعيل</find>
       <find>المدينة</find>
+      <find>العرض</find>
+      <find>.m-card-profile .m-card-profile__pic img</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -135,7 +91,6 @@
         <option value="$PROJECT_DIR$/assets/demo/default/custom/crud/forms/widgets/bootstrap-daterangepicker.js" />
         <option value="$PROJECT_DIR$/reservations.php" />
         <option value="$PROJECT_DIR$/footer.php" />
-        <option value="$PROJECT_DIR$/assets/custome.css" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/profile.php" />
         <option value="$PROJECT_DIR$/provider-details.php" />
@@ -149,6 +104,8 @@
         <option value="$PROJECT_DIR$/realestate.php" />
         <option value="$PROJECT_DIR$/realestate-fixed.php" />
         <option value="$PROJECT_DIR$/services-d-table.php" />
+        <option value="$PROJECT_DIR$/assets/custome.css" />
+        <option value="$PROJECT_DIR$/property-details.php" />
       </list>
     </option>
   </component>
@@ -224,18 +181,20 @@
       <workItem from="1558787724262" duration="2201000" />
       <workItem from="1558791378124" duration="1211000" />
       <workItem from="1558870384100" duration="2653000" />
-      <workItem from="1558955871005" duration="4820000" />
+      <workItem from="1558955871005" duration="5544000" />
+      <workItem from="1559041540389" duration="9457000" />
+      <workItem from="1559072922284" duration="1530000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55429000" />
+    <option name="totallyTimeSpent" value="67140000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16717096" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17170954" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -309,13 +268,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/custome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="838">
-          <caret line="279" column="23" selection-start-line="279" selection-start-column="23" selection-end-line="279" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -433,10 +385,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/property-details.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="378" column="2" selection-start-line="378" selection-start-column="2" selection-end-line="378" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/custome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4607">
+          <caret line="271" column="30" lean-forward="true" selection-start-line="271" selection-start-column="30" selection-end-line="271" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/services-d-table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="206" column="36" lean-forward="true" selection-start-line="206" selection-start-column="36" selection-end-line="206" selection-end-column="36" />
+        <state relative-caret-position="3213">
+          <caret line="189" column="47" lean-forward="true" selection-start-line="189" selection-start-column="47" selection-end-line="189" selection-end-column="47" />
         </state>
       </provider>
     </entry>

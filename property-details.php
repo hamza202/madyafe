@@ -106,123 +106,226 @@
 
         <!-- END: Left Aside -->
         <div class="m-grid__item m-grid__item--fluid m-wrapper my-profile">
-
-            <!-- BEGIN: Subheader -->
+            <!-- END: Subheader -->
             <div class="m-subheader ">
                 <div class="d-flex align-items-center">
                     <div class="mr-auto">
-                        <h3 class="m-subheader__title ">بروفايل المستخدم</h3>
+                        <h3 class="m-subheader__title ">تفاصيل العقار</h3>
                     </div>
                 </div>
             </div>
-
-            <!-- END: Subheader -->
-            <div class="m-content">
+            <div class="m-content pb-0">
                 <div class="row">
-                    <div class="col-xl-3 col-lg-4">
+                    <div class="col-xl-12">
                         <div class="m-portlet m-portlet--full-height  ">
                             <div class="m-portlet__body">
-
-                                <div class="profile-btn-option">
-                                <a href="#" data-toggle="modal" data-target="#m_modal_5"
-                                   class="btn btn-success m-btn m-btn--custom m-btn--icon d-block text-center ">
-                                    <span class="m-auto">
-                                        <i class="la la-check"></i>
-                                        <span>تفعيل </span>
-                                    </span>
-                                </a>
-                                <a href="#m_modal_5" data-toggle="modal" data-target="#m_modal_5"
-                                   class="btn btn-warning  m-btn m-btn--custom m-btn--icon d-block text-center mt-3">
-                                    <span class="m-auto">
-                                        <i class="la la-power-off"></i>
-                                        <span>تعطيل </span>
-                                    </span>
-                                </a>
-                                <a href="#"
-                                   class="btn btn-info  m-btn m-btn--custom m-btn--icon d-block text-center mt-3">
-                                    <span class="m-auto">
-                                        <i class="la la-comment-o"></i>
-                                        <span>رسائل المستخدم</span>
-                                    </span>
-                                </a>
-                                <a href="reservations.php"
-                                   class="btn btn-primary m-btn m-btn--custom m-btn--icon d-block text-center mt-3">
-                                    <span class="m-auto">
-                                        <i class="la la-calendar-plus-o"></i>
-                                        <span>الحجوزات</span>
-                                    </span>
-                                </a>
-                                <a href="#m_modal_3" data-toggle="modal" data-target="#m_modal_3"
-                                   class="btn btn-danger m-btn m-btn--custom m-btn--icon d-block text-center mt-3">
-                                    <span class="m-auto">
-                                        <i class="la la-trash"></i>
-                                        <span>حذف</span>
-                                    </span>
-                                </a>
-                                </div>
-
-                                <div class="m-portlet__body-separator"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-9 col-lg-8">
-                        <div class="m-portlet m-portlet--full-height m-portlet--tabs  ">
-                            <div class="tab-content">
-                                <div class="tab-pane active" id="m_user_profile_tab_1">
-                                    <form class="m-form m-form--fit m-form--label-align-right">
-                                        <div class="m-portlet__body">
-                                            <div class="form-group m-form__group m--margin-top-10 m--hide">
-                                                <div class="alert m-alert m-alert--default" role="alert">
-                                                    The example form below demonstrates common HTML form elements that
-                                                    receive updated styles from Bootstrap with additional classes.
-                                                </div>
-                                            </div>
-                                            <div class="form-group m-form__group row">
-                                                <div class="col-10 ml-auto">
-                                                    <h3 class="m-form__section">بيانات المستخدم</h3>
-                                                </div>
-                                            </div>
-                                            <div class="form-group m-form__group row">
-                                                <label for="name" class="col-2 col-form-label">الأسم</label>
-                                                <div class="col-7">
-                                                    <input class="form-control m-input" id="name" type="text" value="حمزة ابو عيطة" disabled>
-                                                </div>
-                                            </div>
-                                            <div class="form-group m-form__group row">
-                                                <label for="email"
-                                                       class="col-2 col-form-label">بريد الكتروني</label>
-                                                <div class="col-7">
-                                                    <input class="form-control m-input" id="email" type="email" value="hamza@hotmail.com" disabled>
-                                                </div>
-                                            </div>
-                                            <div class="form-group m-form__group row">
-                                                <label for="phone_number"
-                                                       class="col-2 col-form-label">رقم الجوال</label>
-                                                <div class="col-7">
-                                                    <input class="form-control m-input" id="phone_number" type="text" value="0595779004" disabled>
-                                                </div>
-                                            </div>
-                                            <div class="form-group m-form__group row">
-                                                <label for="cty"
-                                                       class="col-2 col-form-label">المدينة</label>
-                                                <div class="col-7">
-                                                    <input class="form-control m-input" id="cty" type="text" value="السعودية - جدة" disabled>
-                                                </div>
-                                            </div>
-                                            <div class="form-group m-form__group ">
-                                                <div id="map" style="width:100%; height: 350px"></div>
-                                            </div>
-                                            <div class="m-form__seperator m-form__seperator--dashed m-form__seperator--space-2x"></div>
-
-                                        </div>
-                                    </form>
-                                </div>
-
+                                <ul class="nav nav-tabs  m-tabs-line m-tabs-line--2x m-tabs-line--success"
+                                    role="tablist">
+                                    <li class="nav-item m-tabs__item">
+                                        <a class="nav-link m-tabs__link active" data-toggle="tab" href="#m_tabs_6_1"
+                                           role="tab">البيانات الأساسية</a>
+                                    </li>
+                                    <li class="nav-item m-tabs__item">
+                                        <a class="nav-link m-tabs__link" data-toggle="tab" href="#m_tabs_6_2"
+                                           role="tab">المرافق</a>
+                                    </li>
+                                    <li class="nav-item m-tabs__item">
+                                        <a class="nav-link m-tabs__link" data-toggle="tab" href="#m_tabs_6_3"
+                                           role="tab">الخدمات</a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="tab-content">
+                <div class="tab-pane active" id="m_tabs_6_1" role="tabpanel">
+                    <div class="m-content pt-0">
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-4">
+                                <div class="m-portlet m-portlet--full-height  ">
+                                    <div class="m-portlet__body">
+                                        <div class="m-card-profile">
+                                            <div class="m-card-profile__pic">
+                                                <div class="m-card-profile__pic-wrapper mt-0">
+                                                    <img src="assets/images/a.jpg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="profile-btn-option">
+                                            <a href="#" data-toggle="modal" data-target="#m_modal_5"
+                                               class="btn btn-success m-btn m-btn--custom m-btn--icon d-block text-center ">
+                                                <span class="m-auto">
+                                                    <i class="la la-check"></i>
+                                                    <span>تفعيل </span>
+                                                </span>
+                                            </a>
+                                            <a href="#m_modal_5" data-toggle="modal" data-target="#m_modal_5"
+                                               class="btn btn-warning  m-btn m-btn--custom m-btn--icon d-block text-center mt-3">
+                                                <span class="m-auto">
+                                                    <i class="la la-power-off"></i>
+                                                    <span>تعطيل </span>
+                                                </span>
+                                            </a>
+                                            <a href="#m_modal_5" data-toggle="modal" data-target="#m_modal_5"
+                                               class="btn btn-accent  m-btn m-btn--custom m-btn--icon d-block text-center mt-3">
+                                                <span class="m-auto">
+                                                    <i class="la la-check-square"></i>
+                                                    <span>تمكين الحجز </span>
+                                                </span>
+                                            </a>
+                                            <a href="#m_modal_5" data-toggle="modal" data-target="#m_modal_5"
+                                               class="btn btn-danger  m-btn m-btn--custom m-btn--icon d-block text-center mt-3">
+                                                <span class="m-auto">
+                                                    <i class="la la-times-circle-o"></i>
+                                                    <span>ايقاف الحجز </span>
+                                                </span>
+                                            </a>
+                                        </div>
+
+                                        <div class="m-portlet__body-separator"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-9 col-lg-8">
+                                <div class="m-portlet m-portlet--full-height m-portlet--tabs  ">
+                                    <div class="tab-content">
+                                        <div class="tab-pane active" id="m_user_profile_tab_1">
+                                            <form class="m-form m-form--fit m-form--label-align-right">
+                                                <div class="m-portlet__body">
+                                                    <div class="form-group m-form__group row">
+                                                        <div class="col-12 ">
+                                                            <h3 class="m-form__section">بيانات العقار الأساسية</h3>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row ">
+                                                        <div class="col-lg-6">
+                                                            <div class="form-group m-form__group mb-4">
+                                                                <label>نوع العقار:</label>
+                                                                <input disabled type="text"
+                                                                       class="form-control m-input m-input--square"
+                                                                       value="نوع العقار">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-6">
+                                                            <div class="form-group m-form__group mb-4">
+                                                                <label>المدينة:</label>
+                                                                <input disabled type="text"
+                                                                       class="form-control m-input m-input--square"
+                                                                       value="المدينة">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row ">
+                                                        <div class="col-lg-6">
+                                                            <div class="form-group m-form__group mb-4">
+                                                                <label>تاريخ انشاء العقار:</label>
+                                                                <input disabled type="text"
+                                                                       class="form-control m-input m-input--square"
+                                                                       value="تاريخ انشاء العقار">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-6">
+                                                            <div class="form-group m-form__group mb-4">
+                                                                <label>رقم الترخيص:</label>
+                                                                <input disabled type="text"
+                                                                       class="form-control m-input m-input--square"
+                                                                       value="رقم الترخيص">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row ">
+                                                        <div class="col-lg-6">
+                                                            <div class="form-group m-form__group mb-4">
+                                                                <label>امكانية الحجز:</label>
+                                                                <input disabled type="text"
+                                                                       class="form-control m-input m-input--square"
+                                                                       value="متاح للحجز">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-6">
+                                                            <div class="form-group m-form__group mb-4">
+                                                                <label>الحالة:</label>
+                                                                <input disabled type="text"
+                                                                       class="form-control m-input m-input--square"
+                                                                       value="مفعل">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <div class="m-widget4 ">
+                                                                <div class="m-widget4__item pl-5 pr-5 bg-light">
+                                                                    <div class="m-widget4__img m-widget4__img--icon">
+                                                                        <img src="assets/app/media/img/files/pdf.svg"
+                                                                             alt="">
+                                                                    </div>
+                                                                    <div class="m-widget4__info">
+                                                                        <span class="m-widget4__text">
+                                                                            مستند التأكيد
+                                                                        </span>
+                                                                    </div>
+                                                                    <div class="m-widget4__ext">
+                                                                        <a href="#" class="m-widget4__icon">
+                                                                            <i class="la la-download"></i>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row ">
+                                                        <div class="col-lg-12">
+                                                            <div class="form-group m-form__group mt-4">
+                                                                <label>شروط المؤجر:</label>
+                                                                <textarea disabled type="text" rows="5"
+                                                                          class="form-control m-input m-input--square"
+                                                                >هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع.</textarea>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row ">
+                                                        <div class="col-lg-12">
+                                                            <div class="form-group m-form__group mt-4">
+                                                                <label>التفاصيل:</label>
+                                                                <textarea disabled type="text" rows="5"
+                                                                          class="form-control m-input m-input--square"
+                                                                >هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع.</textarea>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group m-form__group ">
+                                                        <div id="map" style="width:100%; height: 350px"></div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="m_tabs_6_2" role="tabpanel">
+                    It has survived not only five centuries, but also the leap into electronic typesetting,
+                    remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
+                    sheets containing Lorem Ipsum passages, and more
+                    recently with desktop publishing software like Aldus PageMaker including versions of Lorem
+                    Ipsum.
+                </div>
+                <div class="tab-pane" id="m_tabs_6_3" role="tabpanel">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                    the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                    of type and scrambled it to make a type
+                    specimen book. It has survived not only five centuries, but also the leap into electronic
+                    typesetting, remaining essentially unchanged
+                </div>
+            </div>
+
         </div>
     </div>
 
@@ -260,50 +363,6 @@
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
                 <button type="button" class="btn btn-success">تأكيد</button>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="modal fade" id="m_modal_4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1"
-     aria-hidden="true">
-    <div class="modal-dialog modal-sm" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel1">اضافة للمميز</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <p>
-                    هل انت متأكد من اضافة هذا الحساب للحسابات المميزة؟
-                </p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
-                <button type="button" class="btn btn-success">تأكيد</button>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="modal fade" id="m_modal_3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2"
-     aria-hidden="true">
-    <div class="modal-dialog modal-sm" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel2">حذف الحساب</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <p>
-                    هل انت متأكد من حذف هذا الحساب؟
-                </p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
-                <button type="button" class="btn btn-danger">تأكيد</button>
             </div>
         </div>
     </div>

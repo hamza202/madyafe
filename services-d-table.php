@@ -160,7 +160,7 @@
                                             <div class="dropdown-menu dropdown-menu-left user-option">
                                                 <a class="dropdown-item" href="#m_modal_5" data-toggle="modal"
                                                    data-target="#m_modal_5"><i
-                                                            class="la la-check"></i> تفعيل العرض  </a>
+                                                            class="la la-check"></i> تفعيل العقار  </a>
                                                  <a class="dropdown-item" href="#m_modal_5" data-toggle="modal"
                                                     data-target="#m_modal_5"><i
                                                              class="la la-check-square"></i> تمكين الحجز  </a>
@@ -190,7 +190,7 @@
                                             <div class="dropdown-menu dropdown-menu-left">
                                                 <a class="dropdown-item" href="#m_modal_5" data-toggle="modal"
                                                    data-target="#m_modal_5"><i
-                                                            class="la la-close"></i> تعطيل العرض </a>
+                                                            class="la la-close"></i> تعطيل العقار </a>
                                                 <a class="dropdown-item" href="#m_modal_5" data-toggle="modal"
                                                    data-target="#m_modal_5"><i
                                                             class="la la-times-circle-o"></i> ايقاف الحجز </a>
@@ -220,7 +220,7 @@
                                              <div class="dropdown-menu dropdown-menu-left user-option">
                                                 <a class="dropdown-item" href="#m_modal_5" data-toggle="modal"
                                                    data-target="#m_modal_5"><i
-                                                            class="la la-check"></i> تفعيل العرض  </a>
+                                                            class="la la-check"></i> تفعيل العقار  </a>
                                                    <a class="dropdown-item" href="#m_modal_5" data-toggle="modal"
                                                       data-target="#m_modal_5"><i
                                                                class="la la-times-circle-o"></i> ايقاف الحجز </a>
