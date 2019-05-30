@@ -311,11 +311,304 @@
                     </div>
                 </div>
                 <div class="tab-pane" id="m_tabs_6_2" role="tabpanel">
-                    It has survived not only five centuries, but also the leap into electronic typesetting,
-                    remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-                    sheets containing Lorem Ipsum passages, and more
-                    recently with desktop publishing software like Aldus PageMaker including versions of Lorem
-                    Ipsum.
+                    <div class="m-content pt-0">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="m-portlet m-portlet--creative m-portlet--bordered-semi mt-4">
+                                    <div class="m-portlet__head head-h-0">
+                                        <div class="m-portlet__head-caption">
+                                            <div class="m-portlet__head-title">
+												<span class="m-portlet__head-icon m--hide">
+													<i class="flaticon-statistics"></i>
+												</span>
+                                                <h2 class="m-portlet__head-label m-portlet__head-label--success">
+                                                    <span>نوع المرفق</span>
+                                                </h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="m-portlet__body m-timeline-property">
+                                        <div class="m-timeline-3 row">
+                                            <div class="col-lg-4 col-md-6">
+                                                <div class="m-timeline-3__items">
+                                                    <div class="m-timeline-3__item m-timeline-3__item--brand">
+                                                        <span class="m-timeline-3__item-time m--font-primary">العدد</span>
+                                                        <div class="m-timeline-3__item-desc">
+                                                            <span class="m-timeline-3__item-text">
+                                                                3 كراسي
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-md-6">
+                                                <div class="m-timeline-3__items">
+                                                    <div class="m-timeline-3__item m-timeline-3__item--brand">
+                                                        <span class="m-timeline-3__item-time m--font-primary">المساحة</span>
+                                                        <div class="m-timeline-3__item-desc">
+                                                            <span class="m-timeline-3__item-text">
+                                                               المساحة
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-md-6">
+                                                <div class="m-timeline-3__items">
+                                                    <div class="m-timeline-3__item m-timeline-3__item--brand">
+                                                        <span class="m-timeline-3__item-time m--font-primary">الإتجاه</span>
+                                                        <div class="m-timeline-3__item-desc">
+                                                            <span class="m-timeline-3__item-text">
+                                                               الإتجاه
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-md-6">
+                                                <div class="m-timeline-3__items">
+                                                    <div class="m-timeline-3__item m-timeline-3__item--brand">
+                                                        <span class="m-timeline-3__item-time m--font-primary">الدور</span>
+                                                        <div class="m-timeline-3__item-desc">
+                                                            <span class="m-timeline-3__item-text">
+                                                               الدور
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-md-6">
+                                                <div class="m-timeline-3__items">
+                                                    <div class="m-timeline-3__item m-timeline-3__item--brand">
+                                                        <span class="m-timeline-3__item-time m--font-primary">السعر</span>
+                                                        <div class="m-timeline-3__item-desc">
+                                                            <span class="m-timeline-3__item-text">
+                                                               50%
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-md-6">
+                                                <div class="m-timeline-3__items">
+                                                    <div class="m-timeline-3__item m-timeline-3__item--brand">
+                                                        <span class="m-timeline-3__item-time m--font-primary">الإطلالة</span>
+                                                        <div class="m-timeline-3__item-desc">
+                                                            <span class="m-timeline-3__item-text">
+                                                               الإطلالة
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-lg-4">
+                                                <div class="m-timeline-3__items">
+                                                    <div class="m-timeline-3__item m-timeline-3__item--brand">
+                                                        <span class="m-timeline-3__item-time m--font-primary">الخصم</span>
+                                                        <div class="m-timeline-3__item-desc">
+                                                            <span class="m-timeline-3__item-text">
+                                                               الخصم
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-lg-4">
+                                                <div class="m-timeline-3__items">
+                                                    <div class="m-timeline-3__item m-timeline-3__item--brand">
+                                                        <span class="m-timeline-3__item-time m--font-primary">الحالة</span>
+                                                        <div class="m-timeline-3__item-desc">
+                                                            <span class="m-timeline-3__item-text">
+                                                               الحالة
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="m-timeline-3__items">
+                                                            <div class="m-timeline-3__item m-timeline-3__item--brand">
+                                                                <span class="m-timeline-3__item-time m--font-primary">صورة</span>
+                                                                <div class="m-timeline-3__item-desc">
+                                                            <span class="m-timeline-3__item-text">
+                                                               <img class="img-fluid rounded img-thumbnail"
+                                                                    src="assets/images/a.jpg" alt="">
+                                                            </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="m-timeline-3__items">
+                                                            <div class="m-timeline-3__item m-timeline-3__item--brand">
+                                                                <span class="m-timeline-3__item-time m--font-primary">وصف</span>
+                                                                <div class="m-timeline-3__item-desc">
+                                                            <span class="m-timeline-3__item-text">
+                                                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam doloribus enim est fugit illum impedit iusto nihil nostrum officiis optio quidem saepe, totam voluptatem. Asperiores cum eum temporibus vitae voluptatum?
+
+                                                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam doloribus enim est fugit illum impedit iusto nihil nostrum officiis optio quidem saepe, totam voluptatem. Asperiores cum eum temporibus vitae voluptatum?
+
+                                                            </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="m-portlet m-portlet--creative m-portlet--bordered-semi mt-4">
+                                    <div class="m-portlet__head head-h-0">
+                                        <div class="m-portlet__head-caption">
+                                            <div class="m-portlet__head-title">
+												<span class="m-portlet__head-icon m--hide">
+													<i class="flaticon-statistics"></i>
+												</span>
+                                                <h2 class="m-portlet__head-label m-portlet__head-label--success">
+                                                    <span>نوع المرفق</span>
+                                                </h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="m-portlet__body m-timeline-property">
+                                        <div class="m-timeline-3 row">
+                                            <div class="col-lg-4 col-md-6">
+                                                <div class="m-timeline-3__items">
+                                                    <div class="m-timeline-3__item m-timeline-3__item--brand">
+                                                        <span class="m-timeline-3__item-time m--font-primary">العدد</span>
+                                                        <div class="m-timeline-3__item-desc">
+                                                            <span class="m-timeline-3__item-text">
+                                                                3 كراسي
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-md-6">
+                                                <div class="m-timeline-3__items">
+                                                    <div class="m-timeline-3__item m-timeline-3__item--brand">
+                                                        <span class="m-timeline-3__item-time m--font-primary">المساحة</span>
+                                                        <div class="m-timeline-3__item-desc">
+                                                            <span class="m-timeline-3__item-text">
+                                                               المساحة
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-md-6">
+                                                <div class="m-timeline-3__items">
+                                                    <div class="m-timeline-3__item m-timeline-3__item--brand">
+                                                        <span class="m-timeline-3__item-time m--font-primary">الإتجاه</span>
+                                                        <div class="m-timeline-3__item-desc">
+                                                            <span class="m-timeline-3__item-text">
+                                                               الإتجاه
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-md-6">
+                                                <div class="m-timeline-3__items">
+                                                    <div class="m-timeline-3__item m-timeline-3__item--brand">
+                                                        <span class="m-timeline-3__item-time m--font-primary">الدور</span>
+                                                        <div class="m-timeline-3__item-desc">
+                                                            <span class="m-timeline-3__item-text">
+                                                               الدور
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-md-6">
+                                                <div class="m-timeline-3__items">
+                                                    <div class="m-timeline-3__item m-timeline-3__item--brand">
+                                                        <span class="m-timeline-3__item-time m--font-primary">السعر</span>
+                                                        <div class="m-timeline-3__item-desc">
+                                                            <span class="m-timeline-3__item-text">
+                                                               50%
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-md-6">
+                                                <div class="m-timeline-3__items">
+                                                    <div class="m-timeline-3__item m-timeline-3__item--brand">
+                                                        <span class="m-timeline-3__item-time m--font-primary">الإطلالة</span>
+                                                        <div class="m-timeline-3__item-desc">
+                                                            <span class="m-timeline-3__item-text">
+                                                               الإطلالة
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-lg-4">
+                                                <div class="m-timeline-3__items">
+                                                    <div class="m-timeline-3__item m-timeline-3__item--brand">
+                                                        <span class="m-timeline-3__item-time m--font-primary">الخصم</span>
+                                                        <div class="m-timeline-3__item-desc">
+                                                            <span class="m-timeline-3__item-text">
+                                                               الخصم
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-lg-4">
+                                                <div class="m-timeline-3__items">
+                                                    <div class="m-timeline-3__item m-timeline-3__item--brand">
+                                                        <span class="m-timeline-3__item-time m--font-primary">الحالة</span>
+                                                        <div class="m-timeline-3__item-desc">
+                                                            <span class="m-timeline-3__item-text">
+                                                               الحالة
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="m-timeline-3__items">
+                                                            <div class="m-timeline-3__item m-timeline-3__item--brand">
+                                                                <span class="m-timeline-3__item-time m--font-primary">صورة</span>
+                                                                <div class="m-timeline-3__item-desc">
+                                                            <span class="m-timeline-3__item-text">
+                                                               <img class="img-fluid rounded img-thumbnail"
+                                                                    src="assets/images/a.jpg" alt="">
+                                                            </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="m-timeline-3__items">
+                                                            <div class="m-timeline-3__item m-timeline-3__item--brand">
+                                                                <span class="m-timeline-3__item-time m--font-primary">وصف</span>
+                                                                <div class="m-timeline-3__item-desc">
+                                                            <span class="m-timeline-3__item-text">
+                                                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam doloribus enim est fugit illum impedit iusto nihil nostrum officiis optio quidem saepe, totam voluptatem. Asperiores cum eum temporibus vitae voluptatum?
+
+                                                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam doloribus enim est fugit illum impedit iusto nihil nostrum officiis optio quidem saepe, totam voluptatem. Asperiores cum eum temporibus vitae voluptatum?
+
+                                                            </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="tab-pane" id="m_tabs_6_3" role="tabpanel">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been

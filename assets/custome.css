@@ -285,3 +285,15 @@ span.infobox_rate {
 .m-card-profile .m-card-profile__pic img{
     max-width: 150px ;
 }
+.m-portlet.m-portlet--creative .m-portlet__head .m-portlet__head-caption .m-portlet__head-label>span{
+    white-space: nowrap;
+}
+.m-portlet.m-portlet--bordered-semi .m-portlet__head.head-h-0{
+    height: 0;
+}
+.m-timeline-property .m-timeline-3 .m-timeline-3__item .m-timeline-3__item-desc .m-timeline-3__item-text{
+    font-size: 16px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    display: block;
+}
