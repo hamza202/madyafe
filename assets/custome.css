@@ -323,3 +323,13 @@ span.infobox_rate {
     position: absolute;
     top: 14px;
 }
+.table-small-font th{
+    font-size: 13px;
+    white-space: nowrap;
+}
+.table-small-font td{
+    font-size: 14px;
+}
+.table-small-font .dropdown-menu-right{
+    left: 40px !important;
+}
