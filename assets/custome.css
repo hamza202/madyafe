@@ -333,3 +333,6 @@ span.infobox_rate {
 .table-small-font .dropdown-menu-right{
     left: 40px !important;
 }
+.m-list-timeline--skin-light a:hover {
+    color: transparent;
+}
