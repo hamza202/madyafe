@@ -336,3 +336,33 @@ span.infobox_rate {
 .m-list-timeline--skin-light a:hover {
     color: transparent;
 }
+/*Start New Css*/
+.m-aside-menu .m-menu__nav>.m-menu__item>.m-menu__link .m-menu__link-text.fs-13{
+    font-size: 13px;
+}
+.m-messenger.m-messenger.m-messenger--message-arrow .m-messenger__message.m-messenger__message--out .m-messenger__message-arrow{
+    left: -28px;
+    width: 43px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.m-messenger.m-messenger.m-messenger--message-arrow .m-messenger__message.m-messenger__message--in .m-messenger__message-arrow{
+    right: -1px;
+    width: 43px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.m-messenger.m-messenger.m-messenger--message-arrow .m-messenger__message.m-messenger__message--in .m-messenger__message-content,
+.m-messenger.m-messenger.m-messenger--message-arrow .m-messenger__message.m-messenger__message--out .m-messenger__message-content{
+    min-width: 300px;
+}
+.text-light2{
+    color: #cccccc;
+}
+/*End New Css*/

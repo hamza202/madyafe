@@ -310,7 +310,7 @@
                         <div class=" col-md-9 col-sm-12">
                             <div class='input-group' id='m_daterangepicker_2'>
                                 <input type='text' class="form-control m-input" readonly
-                                       placeholder="2019-05-01 / 2019-05-15"/>
+                                       placeholder="01/01/2019 - 01/15/2019" value="01/01/2019 - 01/15/2019"/>
                                 <div class="input-group-append">
                                     <span class="input-group-text"><i class="la la-calendar-check-o"></i></span>
                                 </div>

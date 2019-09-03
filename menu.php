@@ -93,8 +93,44 @@
                         </span>
                     </span>
                 </a>
-
             </li>
+            <li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a
+                        href="javascript:;" class="m-menu__link m-menu__toggle"><i
+                            class="m-menu__link-icon flaticon-questions-circular-button"></i>
+
+                    <span class="m-menu__link-title">
+                        <span class="m-menu__link-wrap"> <span class="m-menu__link-text ">شكاوي المزودين</span>
+							<span class="m-menu__link-badge"><span class="m-badge m-badge--danger">3</span></span>
+                        </span>
+                    </span>
+                    <i class="m-menu__ver-arrow la la-angle-right"></i>
+                </a>
+
+                <div class="m-menu__submenu "><span class="m-menu__arrow"></span>
+                    <ul class="m-menu__subnav">
+                        <li class="m-menu__item " aria-haspopup="true">
+                            <a href="open-complaints.php"
+                               class="m-menu__link ">
+                                <i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i>
+                                     <span class="m-menu__link-title">
+                                        <span class="m-menu__link-wrap"> <span class="m-menu__link-text ">شكاوي مفتوحة</span>
+                                            <span class="m-menu__link-badge"><span class="m-badge m-badge--danger">3</span></span>
+                                        </span>
+                                    </span>
+
+                            </a>
+                        </li>
+                        <li class="m-menu__item " aria-haspopup="true">
+                            <a href="realestate-fixed.php"
+                               class="m-menu__link "><i
+                                        class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span
+                                        class="m-menu__link-text">الشكاوي المغلقة</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+
             <li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover">
                 <a href="finance.php" class="m-menu__link m-menu__toggle">
                     <i class="m-menu__link-icon flaticon-statistics">
