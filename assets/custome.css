@@ -365,4 +365,35 @@ span.infobox_rate {
 .text-light2{
     color: #cccccc;
 }
+#chartdiv ,#chartdiv2{
+    width: 100%;
+    height: 400px ;
+    direction: ltr;
+}
+select.year-select{
+    height: 35px;
+    line-height: 21px;
+    box-shadow: none;
+    border: 0;
+}
+select.year-select:hover{
+    cursor: pointer;
+}
+.m-widget27 .m-widget27__pic .m-widget27__title{
+    width: 80%;
+    text-align: center;
+}
+.financial-card .m-widget27 .m-widget27__pic .m-widget27__title span{
+    font-size: 2.7rem;
+}
+.financial-card .m-widget27 .m-widget27__pic .m-widget27__title p{
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-bottom: 0px;
+}
+#m_chart_revenue_change text{
+    font-family: 'Tajawal' , sans-serif !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+}
 /*End New Css*/
