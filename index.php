@@ -294,6 +294,86 @@
                         <div id="chartdiv2"></div>
                     </div>
                 </div>
+                <div class="m-portlet">
+                    <div class="m-portlet__head">
+                        <div class="m-portlet__head-caption">
+                            <div class="m-portlet__head-title">
+                                <h3 class="m-portlet__head-text">
+                                    أكثر 5 مزودي خدمة مبيعات
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="m-portlet__body">
+
+                        <!--begin::Section-->
+                   
+                            <div class="m-section__content">
+                                <table class="table table-striped m-table m-table--head-bg-brand best-provider-table">
+                                    <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>صورة</th>
+                                        <th>الإسم</th>
+                                        <th>اجمالي مبيعاتة</th>
+                                        <th>عدد حجوزاتة</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>
+                                            <img src="assets/app/media/img/users/user4.jpg" alt="">
+                                        </td>
+                                        <td>حمزة ابو عيطة</td>
+                                        <td>$20,000</td>
+                                        <td>4000</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>
+                                            <img src="assets/app/media/img/users/user1.jpg" alt="">
+                                        </td>
+                                        <td>حمزة ابو عيطة</td>
+                                        <td>$20,000</td>
+                                        <td>4000</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>
+                                            <img src="assets/app/media/img/users/user2.jpg" alt="">
+                                        </td>
+                                        <td>حمزة ابو عيطة</td>
+                                        <td>$20,000</td>
+                                        <td>4000</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">4</th>
+                                        <td>
+                                            <img src="assets/app/media/img/users/user4.jpg" alt="">
+                                        </td>
+                                        <td>حمزة ابو عيطة</td>
+                                        <td>$20,000</td>
+                                        <td>4000</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">5</th>
+                                        <td>
+                                            <img src="assets/app/media/img/users/user1.jpg" alt="">
+                                        </td>
+                                        <td>حمزة ابو عيطة</td>
+                                        <td>$20,000</td>
+                                        <td>4000</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                        <!--end::Section-->
+                    </div>
+
+                    <!--end::Form-->
+                </div>
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="m-portlet m-portlet--head-overlay m-portlet--full-height financial-card  m-portlet--rounded-force">
@@ -489,7 +569,7 @@
 													<i class="la la-gear"></i>
 												</span>
                                         <h3 class="m-portlet__head-text">
-                                            العقارات الأكثؤ طلبا
+                                            العقارات الأكثر طلبا
                                         </h3>
                                     </div>
                                 </div>
