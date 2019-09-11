@@ -581,7 +581,9 @@
 <!--end::Global Theme Bundle -->
 <script>
     $(document).ready(function () {
-        $('.m-scrollable').animate({scrollTop: document.body.scrollHeight}, 1);
+        var myHeightel = $('.m-scrollable .m-messenger').height();
+        console.log(myHeightel);
+        $('.m-scrollable').animate({scrollTop: myHeightel}, 1);
     });
 </script>
 
