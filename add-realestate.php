@@ -144,7 +144,8 @@
                                         صورة العقار الرئيسية:
                                     </label>
                                     <div class="file-loading">
-                                        <input id="file-senile" name="file-senile" type="file" data-browse-on-zone-click="true" required>
+                                        <input id="file-senile" name="file-senile" type="file"
+                                               data-browse-on-zone-click="true" required>
                                     </div>
                                 </div>
                                 <div class="col-12">
@@ -152,7 +153,8 @@
                                         صور اخرى للعقار:
                                     </label>
                                     <div class="file-loading">
-                                        <input id="file-multiple" name="file-multiple" type="file" data-browse-on-zone-click="true" multiple required>
+                                        <input id="file-multiple" name="file-multiple" type="file"
+                                               data-browse-on-zone-click="true" multiple required>
                                     </div>
                                 </div>
                             </div>
@@ -162,7 +164,8 @@
                                         <label class="fw-500 d-block ">
                                             الإسم:
                                         </label>
-                                        <input type="text" name="name" class="form-control" placeholder="الأسم" required>
+                                        <input type="text" name="name" class="form-control" placeholder="الأسم"
+                                               required>
 
                                     </div>
                                 </div>
@@ -207,7 +210,8 @@
                                         <label class="fw-500 d-block">
                                             الموقع:
                                         </label>
-                                        <a href="#mapmodal" class="btn btn-primary d-block w-100" data-toggle="modal" data-target="#mapmodal">
+                                        <a href="#mapmodal" class="btn btn-primary d-block w-100" data-toggle="modal"
+                                           data-target="#mapmodal">
                                             اختر الموقع على الخريطة
                                             <i class="fas fa-map-marker-alt"></i>
                                         </a>
@@ -215,8 +219,232 @@
                                         <input value="" hidden name="lat" id="lat" type="hidden">
                                     </div>
                                 </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label class="fw-500 d-block ">
+                                            شروط الحجز:
+                                        </label>
+                                        <textarea type="text" name="Booking_terms" class="form-control"
+                                                  placeholder="اكتب شروط الحجز" required></textarea>
+
+                                    </div>
+                                </div>
                             </div>
-                            <button class="btn btn-success"  id="submit_real_form" type="submit">
+                            <div class="dash-border"></div>
+                            <h5 class="m-form__heading-title">
+                                <span class="text-primary">2-</span>
+                                المرافق
+                            </h5>
+                            <div class="d-flex flex-wrap">
+                                <div class="px-3 py-2">
+                                    <label class="fw-500 d-block ">
+                                        صالون:
+                                    </label>
+                                    <div class="inc-dec-container">
+                                        <button type="button" class="minus-btn">
+                                            -
+                                        </button>
+                                        <input disabled data-min="0" data-max="99" required class="number-cunt"
+                                               value="0"
+                                               type="text">
+                                        <button type="button" class="plus-btn">
+                                            +
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="px-3 py-2">
+                                    <label class="fw-500 d-block ">
+                                        حمام:
+                                    </label>
+                                    <div class="inc-dec-container">
+                                        <button type="button" class="minus-btn">
+                                            -
+                                        </button>
+                                        <input disabled data-min="0" data-max="99" required class="number-cunt"
+                                               value="0"
+                                               type="text">
+                                        <button type="button" class="plus-btn">
+                                            +
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="px-3 py-2">
+                                    <label class="fw-500 d-block ">
+                                        غرف نوم:
+                                    </label>
+                                    <div class="inc-dec-container">
+                                        <button type="button" class="minus-btn">
+                                            -
+                                        </button>
+                                        <input disabled data-min="0" data-max="99" required class="number-cunt"
+                                               value="0"
+                                               type="text">
+                                        <button type="button" class="plus-btn">
+                                            +
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="px-3 py-2">
+                                    <label class="fw-500 d-block ">
+                                        صالون:
+                                    </label>
+                                    <div class="inc-dec-container">
+                                        <button type="button" class="minus-btn">
+                                            -
+                                        </button>
+                                        <input disabled data-min="0" data-max="99" required class="number-cunt"
+                                               value="0"
+                                               type="text">
+                                        <button type="button" class="plus-btn">
+                                            +
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="px-3 py-2">
+                                    <label class="fw-500 d-block ">
+                                        حمام:
+                                    </label>
+                                    <div class="inc-dec-container">
+                                        <button type="button" class="minus-btn">
+                                            -
+                                        </button>
+                                        <input disabled data-min="0" data-max="99" required class="number-cunt"
+                                               value="0"
+                                               type="text">
+                                        <button type="button" class="plus-btn">
+                                            +
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="px-3 py-2">
+                                    <label class="fw-500 d-block ">
+                                        غرف نوم:
+                                    </label>
+                                    <div class="inc-dec-container">
+                                        <button type="button" class="minus-btn">
+                                            -
+                                        </button>
+                                        <input disabled data-min="0" data-max="99" required class="number-cunt"
+                                               value="0"
+                                               type="text">
+                                        <button type="button" class="plus-btn">
+                                            +
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="px-3 py-2">
+                                    <label class="fw-500 d-block ">
+                                        صالون:
+                                    </label>
+                                    <div class="inc-dec-container">
+                                        <button type="button" class="minus-btn">
+                                            -
+                                        </button>
+                                        <input disabled data-min="0" data-max="99" required class="number-cunt"
+                                               value="0"
+                                               type="text">
+                                        <button type="button" class="plus-btn">
+                                            +
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="px-3 py-2">
+                                    <label class="fw-500 d-block ">
+                                        حمام:
+                                    </label>
+                                    <div class="inc-dec-container">
+                                        <button type="button" class="minus-btn">
+                                            -
+                                        </button>
+                                        <input disabled data-min="0" data-max="99" required class="number-cunt"
+                                               value="0"
+                                               type="text">
+                                        <button type="button" class="plus-btn">
+                                            +
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="px-3 py-2">
+                                    <label class="fw-500 d-block ">
+                                        غرف نوم:
+                                    </label>
+                                    <div class="inc-dec-container">
+                                        <button type="button" class="minus-btn">
+                                            -
+                                        </button>
+                                        <input disabled data-min="0" data-max="99" required class="number-cunt"
+                                               value="0"
+                                               type="text">
+                                        <button type="button" class="plus-btn">
+                                            +
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dash-border"></div>
+                            <h5 class="m-form__heading-title">
+                                <span class="text-primary">3-</span>
+                                الخدمات
+                            </h5>
+                            <label class="d-block fw-500">
+                                اختر الخدمات المتوفرة في العقار:
+                            </label>
+                            <div class="m-checkbox-inline services-list">
+                                <label class="m-checkbox m-checkbox--success">
+                                    <input type="checkbox" name="services[]"> حارس
+                                    <span></span>
+                                </label>
+                                <label class="m-checkbox m-checkbox--success">
+                                    <input type="checkbox" name="services[]"> تكيف
+                                    <span></span>
+                                </label>
+                                <label class="m-checkbox m-checkbox--success">
+                                    <input type="checkbox" name="services[]"> جاكوزي
+                                    <span></span>
+                                </label>
+                                <label class="m-checkbox m-checkbox--success">
+                                    <input type="checkbox" name="services[]"> انترنت
+                                    <span></span>
+                                </label>
+                                <label class="m-checkbox m-checkbox--success">
+                                    <input type="checkbox" name="services[]"> طاقة شمسية
+                                    <span></span>
+                                </label>
+                            </div>
+                            <div class="dash-border"></div>
+                            <h5 class="m-form__heading-title">
+                                <span class="text-primary">4-</span>
+                                السعر
+                            </h5>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="fw-500 d-block ">
+                                            سعر العقار الرئيسي:
+                                        </label>
+                                        <input type="number" name="main_price" class="form-control" placeholder="1000 ريال" required="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <label class="fw-500 d-block ">
+                                                سعر العقارات في الإجازات:
+                                            </label>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <input type="number"  class="form-control mb-3" placeholder="الخميس" >
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <input type="number"  class="form-control mb-3" placeholder="الجمعة" >
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <input type="number"  class="form-control mb-3" placeholder="السبت" >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn btn-success" id="submit_real_form" type="submit">
                                 حفظ
                             </button>
                         </form>
@@ -242,11 +470,12 @@
 </div>
 
 <!-- end::Scroll Top -->
-<div class="modal fade" id="mapmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="mapmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+     aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                <h5 class="modal-title" id="exampleModalLongTitle">اختر الموقع على الخريطه</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -271,24 +500,24 @@
 <script>
     $('#file-senile').fileinput({
         theme: 'fas',
-        rtl:true,
+        rtl: true,
         // showCaption: false,
         // dropZoneEnabled: false,
-        dropZoneTitle:'صورة العقار الرئيسية',
-        dropZoneClickTitle:'',
+        dropZoneTitle: 'صورة العقار الرئيسية',
+        dropZoneClickTitle: '',
         showUpload: false,
         language: 'ar',
         overwriteInitial: false,
         uploadUrl: '#',
-        allowedFileExtensions: ['jpg', 'png','jpeg']
+        allowedFileExtensions: ['jpg', 'png', 'jpeg']
     });
     $('#file-multiple').fileinput({
         theme: 'fas',
-        rtl:true,
+        rtl: true,
         // showCaption: false,
         // dropZoneEnabled: false,
-        dropZoneTitle:'صور اخرى للعقار',
-        dropZoneClickTitle:'',
+        dropZoneTitle: 'صور اخرى للعقار',
+        dropZoneClickTitle: '',
         showUpload: false,
         language: 'ar',
         overwriteInitial: false,
@@ -296,13 +525,21 @@
         maxFilesNum: 10,
         maxFileCount: 10,
         uploadUrl: '#',
-        allowedFileExtensions: ['jpg', 'png','jpeg']
+        allowedFileExtensions: ['jpg', 'png', 'jpeg']
     });
-//    validation
+    //    validation
     $("#add_realEstate_form").validate({
-            ignore: "",
-
-        });
+        ignore: "",
+        rules: {
+            "services[]": {
+                required: true,
+                minlength: 1
+            }
+        },
+        messages: {
+            "services[]": "الرجاء اختيار خدمة واحدة على الأقل"
+        }
+    });
 </script>
 
 <script>
@@ -341,6 +578,7 @@
             });
         }
     }
+
     $("#save1").on("click", function () {
         $('#submit_real_form').click()
     });
@@ -348,6 +586,33 @@
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwQWgqTGypi82vAyP97l2O5Zi_RBiVA5E&amp;callback=myMap"></script>
 
+
+<script>
+    //plus-btnValue minus-btnValue
+    $(document).ready(function () {
+        $(document).on('click', '.minus-btn, .plus-btn', function (e) {
+            var $this = $(e.target),
+                input = $this.parent().find('.number-cunt'),
+                v = $this.hasClass('minus-btn') ? input.val() - 1 : input.val() * 1 + 1,
+                min = input.attr('data-min') ? input.attr('data-min') : 1,
+                max = input.attr('data-max') ? input.attr('data-max') : false;
+            if (v >= min) {
+                if (!max == false && v > max) {
+                    return false
+                } else input.val(v);
+            }
+            e.preventDefault();
+        });
+        $(document).on('change', '.number-cunt', function (e) {
+            var input = $(e.target),
+                min = input.attr('data-min') ? input.attr('data-min') : 1,
+                max = input.attr('data-max'),
+                v = input.val();
+            if (v > max) input.val(max);
+            else if (v < min) input.val(min);
+        });
+    });
+</script>
 </body>
 
 <!-- end::Body -->
