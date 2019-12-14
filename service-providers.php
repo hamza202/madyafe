@@ -163,6 +163,8 @@
                                                    <i class="la la-calendar-check-o"></i> العروض</a>
                                             <a class="dropdown-item" href="services.php">
                                                    <i class="la la-calendar-plus-o"></i> خدماتة</a>
+                                            <a class="dropdown-item" href="add-realestate.php">
+                                                  <i class="fas fa-plus"></i> اضافة عقار</a>
                                         </div>
                                     </span>
                                 </td>
@@ -194,6 +196,8 @@
                                                    <i class="la la-calendar-check-o"></i> العروض</a>
                                             <a class="dropdown-item" href="services.php">
                                                    <i class="la la-calendar-plus-o"></i> خدماتة</a>
+                                            <a class="dropdown-item" href="add-realestate.php">
+                                                  <i class="fas fa-plus"></i> اضافة عقار</a>
                                             </div>
                                     </span>
                                 </td>
@@ -225,6 +229,8 @@
                                                    <i class="la la-calendar-check-o"></i> العروض</a>
                                             <a class="dropdown-item" href="services.php">
                                                    <i class="la la-calendar-plus-o"></i> خدماتة</a>
+                                            <a class="dropdown-item" href="add-realestate.php">
+                                                  <i class="fas fa-plus"></i> اضافة عقار</a>
                                         </div>
                                     </span>
                                 </td>
