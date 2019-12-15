@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a67363c-8b27-402f-a96f-45c25367f85b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/add-realestate.php" beforeDir="false" afterPath="$PROJECT_DIR$/add-realestate.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/custome.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/custome.css" afterDir="false" />
@@ -57,7 +56,7 @@
       <workItem from="1575986116281" duration="1593000" />
       <workItem from="1575987735466" duration="1562000" />
       <workItem from="1576072173664" duration="13884000" />
-      <workItem from="1576313606299" duration="10866000" />
+      <workItem from="1576313606299" duration="16986000" />
     </task>
     <servers />
   </component>
@@ -73,9 +72,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1575986161582" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1576319819319">
+    <state x="339" y="162" key="run.anything.popup" timestamp="1576367793184">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1576319819319" />
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1576367793184" />
   </component>
 </project>

@@ -34,7 +34,6 @@
 
     <!--begin::Page Vendors Styles -->
 
-    <link href="assets/vendors/custom/datatables/datatables.bundle.rtl.css" rel="stylesheet" type="text/css"/>
     <!--end::Page Vendors Styles -->
     <link rel="shortcut icon" href="assets/images/icon.png"/>
     <link rel="stylesheet" href="assets/css/fileinput.css">
@@ -416,13 +415,14 @@
                                 <span class="text-primary">4-</span>
                                 السعر
                             </h5>
-                            <div class="row">
+                            <div class="row ">
                                 <div class="col-lg-6">
                                     <div class="form-group">
                                         <label class="fw-500 d-block ">
                                             سعر العقار الرئيسي:
                                         </label>
-                                        <input type="number" name="main_price" class="form-control" placeholder="1000 ريال" required="">
+                                        <input type="number" name="main_price" class="form-control"
+                                               placeholder="1000 ريال" required="">
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
@@ -433,16 +433,27 @@
                                             </label>
                                         </div>
                                         <div class="col-sm-4">
-                                            <input type="number"  class="form-control mb-3" placeholder="الخميس" >
+                                            <input type="number" class="form-control mb-3" placeholder="الخميس">
                                         </div>
                                         <div class="col-sm-4">
-                                            <input type="number"  class="form-control mb-3" placeholder="الجمعة" >
+                                            <input type="number" class="form-control mb-3" placeholder="الجمعة">
                                         </div>
                                         <div class="col-sm-4">
-                                            <input type="number"  class="form-control mb-3" placeholder="السبت" >
+                                            <input type="number" class="form-control mb-3" placeholder="السبت">
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+                            <div class="row mb-3 justify-content-center">
+                                <div class="col-lg-6">
+                                    <a href="" class="btn btn-primary m-btn d-block w-100" data-toggle="modal"
+                                       data-target="#m_daterangepicker_modal">اضافة سعر خاص
+                                        <i class="far fa-calendar-alt ml-2"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row mb-3 append-col">
+                                
                             </div>
                             <button class="btn btn-success" id="submit_real_form" type="submit">
                                 حفظ
@@ -490,6 +501,43 @@
         </div>
     </div>
 </div>
+
+<div class="modal fade" id="m_daterangepicker_modal" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+    <div class="modal-dialog modal-md" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="">اضافة سعر خاص للعقار</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" class="la la-remove"></span>
+                </button>
+            </div>
+            <form class="m-form m-form--fit m-form--label-align-right">
+                <div class="modal-body">
+                    <div class="form-group m-form__group row m--margin-top-20">
+                        <div class="col-sm-12">
+                            <label class="fw-500">اختر تاريخ:</label>
+                            <input type='text' class="form-control" id="m_daterangepicker_1_modal" readonly
+                                   placeholder="اختر تاريخ السعر الخاص"/>
+                        </div>
+                    </div>
+                    <div class="form-group m-form__group row ">
+                        <div class="col-sm-12">
+                            <label class="fw-500">سعر الليله:</label>
+                            <input type='number' class="form-control" id="specialPrice" placeholder="200 ريال"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-brand m-btn" data-dismiss="modal">الغاء</button>
+                    <button id="addSpecialPrice" type="button" data-dismiss="modal" class="btn btn-secondary m-btn">
+                        اضافة
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
 <!--begin::Global Theme Bundle -->
 <script src="assets/vendors/base/vendors.bundle.js" type="text/javascript"></script>
 <script src="assets/demo/default/base/scripts.bundle.js" type="text/javascript"></script>
@@ -497,6 +545,8 @@
 <script src="assets/js/locales/ar.js"></script>
 <script src="assets/js/fas/theme.js" type="text/javascript"></script>
 <script src="assets/js/explorer-fas/theme.js" type="text/javascript"></script>
+<script src="assets/demo/default/custom/crud/forms/widgets/bootstrap-daterangepicker.js"
+        type="text/javascript"></script>
 <script>
     $('#file-senile').fileinput({
         theme: 'fas',
@@ -611,6 +661,48 @@
             if (v > max) input.val(max);
             else if (v < min) input.val(min);
         });
+    });
+</script>
+<script>
+    let dateRange = 0;
+    let SpecialPrice = 0;
+    $('#m_daterangepicker_1_modal').on('change', function () {
+        dateRange = $(this).val();
+        console.log(dateRange)
+    });
+    $('#specialPrice').on('change', function () {
+        SpecialPrice = $(this).val();
+        console.log(SpecialPrice)
+    });
+
+    $('#addSpecialPrice').on('click', function () {
+        $('.append-col')
+            .append($(
+                '<div class="col-lg-6 mb-3">\n' +
+                '  <div class="specialPrice-card">\n' +
+                '    <div class="row justify-content-between align-items-center">\n' +
+                '      <div class="col-auto">\n' +
+                        dateRange +
+                '         <input type="hidden" value="'+dateRange+'">\n' +
+                '      </div>\n' +
+                '      <div class="col-auto">\n' +
+                '        <span>'+SpecialPrice+'</span>\n' +
+                '  ريال          ' +
+                '         <input type="hidden" value="'+SpecialPrice+'">\n' +
+                '         <button class="btn btn-outline-danger m-btn m-btn--icon m-btn--icon-only ml-2 dell-card">\n' +
+                '             <i class="fa fa-trash"></i>\n' +
+                '         </button>' +
+                '       </div>\n' +
+                '     </div>\n' +
+                '    </div>\n' +
+                '</div>'
+                )
+            )
+        ;
+    });
+    $('.append-col').on('click' ,'.dell-card' , function () {
+        $(this).closest('.col-lg-6').fadeOut(500);
+        console.log('dd')
     });
 </script>
 </body>
