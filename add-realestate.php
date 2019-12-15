@@ -243,7 +243,7 @@
                                         <button type="button" class="minus-btn">
                                             -
                                         </button>
-                                        <input disabled data-min="0" data-max="99" required class="number-cunt"
+                                        <input  data-min="0" data-max="99" required class="number-cunt"
                                                value="0"
                                                type="text">
                                         <button type="button" class="plus-btn">
