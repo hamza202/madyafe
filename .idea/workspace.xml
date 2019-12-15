@@ -4,7 +4,6 @@
     <list default="true" id="2a67363c-8b27-402f-a96f-45c25367f85b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/add-realestate.php" beforeDir="false" afterPath="$PROJECT_DIR$/add-realestate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/custome.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/custome.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +56,7 @@
       <workItem from="1575987735466" duration="1562000" />
       <workItem from="1576072173664" duration="13884000" />
       <workItem from="1576313606299" duration="17330000" />
-      <workItem from="1576416677397" duration="2740000" />
+      <workItem from="1576416677397" duration="3866000" />
     </task>
     <servers />
   </component>

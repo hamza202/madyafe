@@ -421,7 +421,7 @@
                                         <label class="fw-500 d-block ">
                                             سعر العقار الرئيسي:
                                         </label>
-                                        <input type="number" name="main_price" class="form-control"
+                                        <input type="number" id="main_price" name="main_price" class="form-control"
                                                placeholder="1000 ريال" required="">
                                     </div>
                                 </div>
@@ -629,9 +629,7 @@
         }
     }
 
-    $("#save1").on("click", function () {
-        $('#submit_real_form').click()
-    });
+
 </script>
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwQWgqTGypi82vAyP97l2O5Zi_RBiVA5E&amp;callback=myMap"></script>
@@ -666,6 +664,7 @@
 <script>
     let dateRange = 0;
     let SpecialPrice = 0;
+    let placeholder = 'ريال';
     $('#m_daterangepicker_1_modal').on('change', function () {
         dateRange = $(this).val();
         console.log(dateRange)
@@ -686,8 +685,8 @@
                 '         <input type="hidden" value="'+dateRange+'">\n' +
                 '      </div>\n' +
                 '      <div class="col-auto">\n' +
-                '        <span>'+SpecialPrice+'</span>\n' +
-                '  ريال          ' +
+                '        <span>'+SpecialPrice+'</span>' +
+                '<span class="placeholder-change">'+placeholder+'</span>'+
                 '         <input type="hidden" value="'+SpecialPrice+'">\n' +
                 '         <button class="btn btn-outline-danger m-btn m-btn--icon m-btn--icon-only ml-2 dell-card">\n' +
                 '             <i class="fa fa-trash"></i>\n' +
@@ -703,6 +702,11 @@
     $('.append-col').on('click' ,'.dell-card' , function () {
         $(this).closest('.col-lg-6').fadeOut(500);
         console.log('dd')
+    });
+    $("#save1").on("click", function () {
+        $('#main_price').attr("placeholder", "1000 جنيه");
+        placeholder = 'جنيه';
+        $('.placeholder-change').text('جنيه')
     });
 </script>
 </body>
