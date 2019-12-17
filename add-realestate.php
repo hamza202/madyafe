@@ -709,6 +709,15 @@
         $('.placeholder-change').text('جنيه')
     });
 </script>
+
+<script>
+    let myForm =$('#add_realEstate_form');
+    myForm.on('submit' , function () {
+        if(myForm.valid() === true){
+            $('#submit_real_form').attr("disabled", true);
+        }
+    });
+</script>
 </body>
 
 <!-- end::Body -->
