@@ -144,7 +144,7 @@
                                     </label>
                                     <div class="file-loading">
                                         <input id="file-senile" name="file-senile" type="file"
-                                               data-browse-on-zone-click="true" required>
+                                                required>
                                     </div>
                                 </div>
                                 <div class="col-12">
@@ -153,7 +153,7 @@
                                     </label>
                                     <div class="file-loading">
                                         <input id="file-multiple" name="file-multiple" type="file"
-                                               data-browse-on-zone-click="true" multiple required>
+                                                multiple required>
                                     </div>
                                 </div>
                             </div>
@@ -552,7 +552,7 @@
         theme: 'fas',
         rtl: true,
         // showCaption: false,
-        // dropZoneEnabled: false,
+        dropZoneEnabled: false,
         dropZoneTitle: 'صورة العقار الرئيسية',
         dropZoneClickTitle: '',
         showUpload: false,
@@ -565,7 +565,7 @@
         theme: 'fas',
         rtl: true,
         // showCaption: false,
-        // dropZoneEnabled: false,
+        dropZoneEnabled: false,
         dropZoneTitle: 'صور اخرى للعقار',
         dropZoneClickTitle: '',
         showUpload: false,
